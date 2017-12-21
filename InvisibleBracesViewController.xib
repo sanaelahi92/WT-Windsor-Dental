@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="InvisibleBracesViewController">
+            <connections>
+                <outlet property="view" destination="fR7-Ly-pq4" id="Fst-3E-S1s"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="fR7-Ly-pq4">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Footer.png" translatesAutoresizingMaskIntoConstraints="NO" id="7kV-b2-tUx">
+                    <rect key="frame" x="0.0" y="464" width="320" height="105"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="105" id="Bhh-xJ-JHT"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cuL-p0-kFW">
+                    <rect key="frame" x="8" y="123" width="299" height="358"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="trabs_bk.png" translatesAutoresizingMaskIntoConstraints="NO" id="7dt-i4-Rvs">
+                            <rect key="frame" x="4" y="-25" width="305" height="398"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iUJ-pd-xyY">
+                            <rect key="frame" x="22" y="13" width="269" height="345"/>
+                            <string key="text">   If you are embarrassed about having skew teeth that are not aligned, or you have large gaps between your teeth, modern orthodontics now offers a range of solutions. Also known as discreet or invisible braces, teeth can be straightened and smiles aligned in a matter of months with excellent aesthetic results. At Windsor Dental, we have great success with this treatment for our patients who want straighter teeth.
+   Invisible braces are a popular choice with adults who have professional careers and don’t feel comfortable wearing unsightly ‘train track’ braces for months on end. The technology behind invisible orthodontics is highly advanced and often gives patients a much shorter treatment time, depending on their individual cases. Some systems are completely removable, allowing you to take the aligners out when eating or drinking. Other systems have clear brackets and tooth coloured wire, making them hardly noticeable.
+</string>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oBq-Hw-PZe">
+                    <rect key="frame" x="-5" y="-8" width="350" height="100"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qEI-fa-6eF">
+                            <rect key="frame" x="19" y="55" width="46" height="30"/>
+                            <state key="normal" title="back">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="back_click:" destination="-1" eventType="touchUpInside" id="8rC-dc-Bsx"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Invisible Braces" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OXU-5o-HH4">
+                            <rect key="frame" x="116" y="59" width="119" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.066666666669999999" green="0.70980392160000005" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="OXU-5o-HH4" firstAttribute="centerX" secondItem="fR7-Ly-pq4" secondAttribute="centerX" id="26C-WR-cY0"/>
+                <constraint firstItem="cuL-p0-kFW" firstAttribute="centerX" secondItem="fR7-Ly-pq4" secondAttribute="centerX" id="Ldd-zQ-KiA"/>
+                <constraint firstAttribute="bottom" secondItem="7kV-b2-tUx" secondAttribute="bottom" constant="-1" id="RBS-Kz-GyC"/>
+                <constraint firstItem="7kV-b2-tUx" firstAttribute="leading" secondItem="fR7-Ly-pq4" secondAttribute="leading" id="YLo-4C-Lvm"/>
+                <constraint firstAttribute="trailing" secondItem="7kV-b2-tUx" secondAttribute="trailing" id="cex-YP-CNj"/>
+                <constraint firstItem="cuL-p0-kFW" firstAttribute="centerY" secondItem="fR7-Ly-pq4" secondAttribute="centerY" id="fOU-nC-TaH"/>
+                <constraint firstAttribute="trailing" secondItem="oBq-Hw-PZe" secondAttribute="trailing" constant="-25" id="oeq-c6-N9Q"/>
+                <constraint firstItem="oBq-Hw-PZe" firstAttribute="leading" secondItem="fR7-Ly-pq4" secondAttribute="leading" constant="-5" id="xL2-Yl-4fi"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="-289" y="287"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Footer.png" width="448" height="179"/>
+        <image name="trabs_bk.png" width="364" height="330"/>
+    </resources>
+</document>

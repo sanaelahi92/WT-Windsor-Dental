@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dCM-U7-GN9">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="windsor_dental_logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="eBj-Ul-Wtl">
+                            <rect key="frame" x="15" y="226" width="294" height="84"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="84" id="57m-nh-yJ7"/>
+                                <constraint firstAttribute="width" constant="294" id="qRa-MW-vcw"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.25098039220000001" green="0.25098039220000001" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="eBj-Ul-Wtl" firstAttribute="centerX" secondItem="dCM-U7-GN9" secondAttribute="centerX" id="dLv-zQ-inK"/>
+                        <constraint firstItem="eBj-Ul-Wtl" firstAttribute="centerY" secondItem="dCM-U7-GN9" secondAttribute="centerY" id="s2J-SU-Oth"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="dCM-U7-GN9" secondAttribute="bottom" id="3VG-ES-hIJ"/>
+                <constraint firstAttribute="trailing" secondItem="dCM-U7-GN9" secondAttribute="trailing" id="ZyV-2S-Jlq"/>
+                <constraint firstItem="dCM-U7-GN9" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="haI-Ib-BvO"/>
+                <constraint firstItem="dCM-U7-GN9" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="yqu-zz-yki"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="547" y="454"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="windsor_dental_logo.png" width="1000" height="277"/>
+    </resources>
+</document>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="InlaysOnlaysViewController">
+            <connections>
+                <outlet property="view" destination="cQr-8N-aVW" id="wqO-8W-sjP"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="cQr-8N-aVW">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Footer.png" translatesAutoresizingMaskIntoConstraints="NO" id="Gew-v5-ppj">
+                    <rect key="frame" x="0.0" y="463" width="320" height="105"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="105" id="nxi-96-8cF"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DgR-l9-feS">
+                    <rect key="frame" x="0.0" y="96" width="320" height="394"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="trabs_bk.png" translatesAutoresizingMaskIntoConstraints="NO" id="1zO-Dv-VfA">
+                            <rect key="frame" x="14" y="-21" width="298" height="429"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bO8-lN-Q93">
+                            <rect key="frame" x="27" y="16" width="266" height="361"/>
+                            <string key="text">    Inlays and onlays are two types of restorations that are used to fix certain cavities in teeth. An inlay is a small filling that fits into the biting surface of a tooth while an onlay covers a larger area of the tooth and is better suited to bigger cavities. Gold was traditionally used for these types of restorations, however in recent times, hard-wearing tooth-coloured porcelain has become a more popular choice of material. This is more aesthetic way to restore the teeth and creates a more natural-looking smile.
+   At Windsor Dental, our skilled team can restore teeth with inlays and onlays with great results for our patients. Inlays and onlays are made in a dental laboratory by a technician, with the help of impressions taken of your teeth. While these are being made, you will wear a temporary filling. When your inlay or onlay is ready we will bond it into place using a special adhesive, after removing the temporary filling. Your restored tooth will not only look like a real tooth but also function like one, allowing you to bite, chew and eat without any discomfort.</string>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iRf-7n-tXF">
+                    <rect key="frame" x="-140" y="-16" width="600" height="100"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DL9-dR-TYX">
+                            <rect key="frame" x="145" y="60" width="46" height="30"/>
+                            <state key="normal" title="back">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="back_click:" destination="-1" eventType="touchUpInside" id="HC5-8M-D6L"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Inlays &amp; Onlays" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TXd-Sc-oBd">
+                            <rect key="frame" x="242" y="64" width="116" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.066666666669999999" green="0.70980392160000005" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="iRf-7n-tXF" secondAttribute="trailing" constant="-140" id="JPh-dC-M6w"/>
+                <constraint firstAttribute="bottom" secondItem="Gew-v5-ppj" secondAttribute="bottom" id="Nfu-tc-N6L"/>
+                <constraint firstItem="TXd-Sc-oBd" firstAttribute="centerX" secondItem="cQr-8N-aVW" secondAttribute="centerX" id="PTQ-W1-rTK"/>
+                <constraint firstItem="DgR-l9-feS" firstAttribute="centerY" secondItem="cQr-8N-aVW" secondAttribute="centerY" id="QqK-Ca-glw"/>
+                <constraint firstItem="DgR-l9-feS" firstAttribute="centerX" secondItem="cQr-8N-aVW" secondAttribute="centerX" id="WNM-mi-Bwv"/>
+                <constraint firstAttribute="trailing" secondItem="Gew-v5-ppj" secondAttribute="trailing" id="Z9j-MF-k6m"/>
+                <constraint firstItem="Gew-v5-ppj" firstAttribute="leading" secondItem="cQr-8N-aVW" secondAttribute="leading" id="cOe-o1-bsW"/>
+                <constraint firstItem="iRf-7n-tXF" firstAttribute="leading" secondItem="cQr-8N-aVW" secondAttribute="leading" constant="-140" id="yTh-iW-AAb"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="-258" y="319"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Footer.png" width="448" height="179"/>
+        <image name="trabs_bk.png" width="364" height="330"/>
+    </resources>
+</document>

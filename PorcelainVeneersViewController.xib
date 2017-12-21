@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PorcelainVeneersViewController">
+            <connections>
+                <outlet property="view" destination="bov-R8-uvf" id="0nA-a8-AfP"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="bov-R8-uvf">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Footer.png" translatesAutoresizingMaskIntoConstraints="NO" id="mZm-Lw-oYp">
+                    <rect key="frame" x="0.0" y="465" width="320" height="105"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="105" id="SSh-2o-i0f"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tcW-aQ-pNQ">
+                    <rect key="frame" x="10" y="109" width="302" height="379"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="trabs_bk.png" translatesAutoresizingMaskIntoConstraints="NO" id="wnS-qX-e2I">
+                            <rect key="frame" x="3" y="-24" width="302" height="419"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oE8-pI-p6S">
+                            <rect key="frame" x="16" y="19" width="269" height="342"/>
+                            <mutableString key="text">   At Windsor Dental we offer a range of cosmetic dentistry treatments to give our patients beautiful new smiles. If your teeth are stained, chipped, or not properly aligned, veneers are a good treatment option to consider because they look like natural teeth and don’t require a major procedure to have them placed.
+    A veneer is a very thin, tooth-coloured piece of porcelain (like a false finger nail) that is bonded on top of your own tooth. Based on your needs, we can adjust the shape of your veneers to make your teeth overall look longer and or closer together. You can have just one veneer or a whole set, also known as a smile makeover.
+    For a single stained tooth we can also match the precise shade of porcelain to give it a lighter appearance and fit in with the surrounding teeth. Veneers can also be used to close small gaps, when braces are not suitable. If one tooth is slightly out of position, a veneer can sometimes be fitted to bring it into line with the others.
+</mutableString>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AXK-wD-jy2">
+                    <rect key="frame" x="-140" y="-16" width="600" height="100"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Id6-o9-pP6">
+                            <rect key="frame" x="145" y="60" width="46" height="30"/>
+                            <state key="normal" title="back">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="back_click:" destination="-1" eventType="touchUpInside" id="fKd-O4-Xcq"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Porcelain Veneers" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mlq-df-wAp">
+                            <rect key="frame" x="232" y="64" width="137" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.066666666669999999" green="0.70980392160000005" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="AXK-wD-jy2" firstAttribute="leading" secondItem="bov-R8-uvf" secondAttribute="leading" constant="-140" id="0Ze-yn-oYg"/>
+                <constraint firstAttribute="trailing" secondItem="AXK-wD-jy2" secondAttribute="trailing" constant="-140" id="1qU-gb-r0d"/>
+                <constraint firstItem="mZm-Lw-oYp" firstAttribute="leading" secondItem="bov-R8-uvf" secondAttribute="leading" id="OPC-fe-s60"/>
+                <constraint firstItem="tcW-aQ-pNQ" firstAttribute="centerX" secondItem="bov-R8-uvf" secondAttribute="centerX" id="apv-9C-F5W"/>
+                <constraint firstAttribute="bottom" secondItem="mZm-Lw-oYp" secondAttribute="bottom" constant="-2" id="dWK-fA-wVg"/>
+                <constraint firstItem="mlq-df-wAp" firstAttribute="centerX" secondItem="bov-R8-uvf" secondAttribute="centerX" id="jJO-c4-IbC"/>
+                <constraint firstAttribute="trailing" secondItem="mZm-Lw-oYp" secondAttribute="trailing" id="lwS-UN-2FE"/>
+                <constraint firstItem="tcW-aQ-pNQ" firstAttribute="centerY" secondItem="bov-R8-uvf" secondAttribute="centerY" id="vOQ-bn-3n3"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="-258" y="319"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Footer.png" width="448" height="179"/>
+        <image name="trabs_bk.png" width="364" height="330"/>
+    </resources>
+</document>

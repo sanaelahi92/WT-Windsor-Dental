@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EmergencyDentalCareViewController">
+            <connections>
+                <outlet property="view" destination="XTL-iW-ku0" id="zeQ-tG-DOS"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="XTL-iW-ku0">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Footer.png" translatesAutoresizingMaskIntoConstraints="NO" id="7nj-DN-IDy">
+                    <rect key="frame" x="0.0" y="463" width="320" height="105"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="105" id="X4X-3V-ErQ"/>
+                        <constraint firstAttribute="height" constant="105" id="xOt-zU-4ZK"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vqq-be-hR6">
+                    <rect key="frame" x="5" y="89" width="309" height="391"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="trabs_bk.png" translatesAutoresizingMaskIntoConstraints="NO" id="n5n-PX-JQI">
+                            <rect key="frame" x="9" y="-16" width="301" height="407"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MlY-TV-Qik">
+                            <rect key="frame" x="21" y="15" width="269" height="345"/>
+                            <mutableString key="text">   We offer an excellent emergency dental care service to our patients here at Windsor Dental. Whether you have severe tooth ache, or you have chipped or broken a tooth, we are here to help.
+   We aim to carry out your dental treatment in a relaxing atmosphere using the most advanced dental techniques and equipment. Our whole team is driven to provide the highest level of care and exceed your expectations. Our practice is easy to reach and has plenty of parking space.
+    It’s very important that you see us if you experience any kind of injury to your teeth. This will help us to effectively repair any teeth that have been damaged. We can help with any dental emergencies from toothache to lost or broken crowns, chipped teeth and fillings to abscesses, trauma, avulsed teeth and a swollen face. We can take care of your injuries to ensure you heal quicker and more effectively, so you avoid additional dental problems in the future.</mutableString>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                            <string key="userLabel">When a tooth becomes infected due to tooth decay or as a result of an injury, root canal therapy may be required to save the remaining tooth structure. Once the infection starts to spread through the root canal system, it could eventually lead to an abscess, causing a great deal of discomfort. If root canal treatment is not carried out, the tooth may need to be removed. Here at Windsor Dental, our team is trained and experienced to perform root canal therapy to a very high standard. Once the tooth is numbed with a local anaesthetic, we will reduce your discomfort and stop the infection, while restoring your tooth using advanced materials and techniques. The treatment overall should feel no different to having an ordinary filling placed.     After all the infection is removed from the root canal system, it is then cleaned and filled to prevent any further infection. The tooth will have a temporary filling until the follow up appointment, when the tooth is checked to ensure all the infection has cleared. The tooth is then filled permanently and should look and function like a normal tooth.</string>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ql1-bZ-ghV">
+                    <rect key="frame" x="0.0" y="-19" width="320" height="100"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kVO-0j-hx1">
+                            <rect key="frame" x="8" y="62" width="46" height="30"/>
+                            <state key="normal" title="back">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="back_click:" destination="-1" eventType="touchUpInside" id="EqE-SP-oWl"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Emergency Dental Care" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mc7-Qp-wq9">
+                            <rect key="frame" x="77" y="66" width="181" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.066666666669999999" green="0.70980392160000005" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Vqq-be-hR6" firstAttribute="centerX" secondItem="XTL-iW-ku0" secondAttribute="centerX" id="2WO-fd-bCP"/>
+                <constraint firstItem="Ql1-bZ-ghV" firstAttribute="leading" secondItem="XTL-iW-ku0" secondAttribute="leading" id="6dB-Cl-zMw"/>
+                <constraint firstItem="7nj-DN-IDy" firstAttribute="leading" secondItem="XTL-iW-ku0" secondAttribute="leading" id="QHz-Hf-5G2"/>
+                <constraint firstAttribute="trailing" secondItem="7nj-DN-IDy" secondAttribute="trailing" id="QL9-t9-dcH"/>
+                <constraint firstItem="Vqq-be-hR6" firstAttribute="centerY" secondItem="XTL-iW-ku0" secondAttribute="centerY" id="SAz-ev-n0Z"/>
+                <constraint firstAttribute="bottom" secondItem="7nj-DN-IDy" secondAttribute="bottom" id="jQS-Eq-h9A"/>
+                <constraint firstItem="Mc7-Qp-wq9" firstAttribute="centerX" secondItem="XTL-iW-ku0" secondAttribute="centerX" id="kkl-Kv-K8L"/>
+                <constraint firstAttribute="trailing" secondItem="Ql1-bZ-ghV" secondAttribute="trailing" id="oI3-RB-7uG"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="-258" y="319"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Footer.png" width="448" height="179"/>
+        <image name="trabs_bk.png" width="364" height="330"/>
+    </resources>
+</document>

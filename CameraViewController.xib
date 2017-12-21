@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CameraViewController">
+            <connections>
+                <outlet property="frameForCapture" destination="QZb-hW-386" id="inE-Ru-gyA"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tu1-r2-s3a">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QZb-hW-386">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="498"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="05u-PV-wbL">
+                            <rect key="frame" x="124" y="503" width="61" height="57"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="57" id="14J-hh-Nrt"/>
+                                <constraint firstAttribute="width" constant="61" id="s5d-pN-bKF"/>
+                            </constraints>
+                            <state key="normal" title="Capture" image="camera3.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="show_image:" destination="-1" eventType="touchUpInside" id="5IY-LX-kgR"/>
+                            </connections>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="canvas2.png" translatesAutoresizingMaskIntoConstraints="NO" id="fUJ-yb-fDO">
+                            <rect key="frame" x="0.0" y="498" width="320" height="70"/>
+                            <constraints>
+                                <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="70" id="efC-Hp-Odz"/>
+                                <constraint firstAttribute="height" constant="70" id="vb6-AO-OUB"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="05u-PV-wbL" secondAttribute="bottom" constant="8" id="2H4-rc-faE"/>
+                        <constraint firstItem="05u-PV-wbL" firstAttribute="centerX" secondItem="tu1-r2-s3a" secondAttribute="centerX" id="Hsp-2N-2Qg"/>
+                        <constraint firstAttribute="trailing" secondItem="QZb-hW-386" secondAttribute="trailing" id="IC7-h4-Puf"/>
+                        <constraint firstItem="QZb-hW-386" firstAttribute="top" secondItem="tu1-r2-s3a" secondAttribute="top" id="j17-Kq-tg3"/>
+                        <constraint firstItem="QZb-hW-386" firstAttribute="leading" secondItem="tu1-r2-s3a" secondAttribute="leading" id="nyr-Ie-cI7"/>
+                        <constraint firstAttribute="bottom" secondItem="fUJ-yb-fDO" secondAttribute="bottom" id="rvg-WV-qgr"/>
+                        <constraint firstItem="fUJ-yb-fDO" firstAttribute="top" secondItem="QZb-hW-386" secondAttribute="bottom" id="ugO-4e-auR"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="tu1-r2-s3a" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="6p0-hA-Jwq"/>
+                <constraint firstItem="tu1-r2-s3a" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="WKt-rX-fhc"/>
+                <constraint firstAttribute="trailing" secondItem="tu1-r2-s3a" secondAttribute="trailing" id="my0-yX-Mib"/>
+                <constraint firstAttribute="bottom" secondItem="tu1-r2-s3a" secondAttribute="bottom" id="xE2-4V-RB1"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="camera3.png" width="166" height="167"/>
+        <image name="canvas2.png" width="574" height="143"/>
+    </resources>
+</document>

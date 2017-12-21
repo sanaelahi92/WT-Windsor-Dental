@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SensitiveTeethViewController">
+            <connections>
+                <outlet property="view" destination="jBa-N1-07r" id="OO0-t9-HNL"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="jBa-N1-07r">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Footer.png" translatesAutoresizingMaskIntoConstraints="NO" id="15x-I3-mcR">
+                    <rect key="frame" x="0.0" y="465" width="320" height="105"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="105" id="3xT-A7-qSR"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Qb-M1-EyS">
+                    <rect key="frame" x="8" y="89" width="304" height="391"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="trabs_bk.png" translatesAutoresizingMaskIntoConstraints="NO" id="Pwy-oI-GYL">
+                            <rect key="frame" x="6" y="-25" width="301" height="435"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AMI-J6-Jyo">
+                            <rect key="frame" x="22" y="14" width="269" height="364"/>
+                            <mutableString key="text">   If your teeth feel sensitive to hot and cold temperatures, we can help you at Windsor Dental Care. Sensitive teeth can cause a great deal of discomfort and our team is trained to help identify the cause and treat the problem with a number of strategies.
+  One cause of sensitivity is dental erosion, which is the loss of tooth enamel. Enamel is the hard outer coating of a tooth, which protects the sensitive dentine underneath. If the enamel is worn away or eroded, this dentine is exposed which can lead to pain and sensitivity, which can be worsened with extreme temperatures.
+Erosion can be caused by your diet (frequent consumption of high sugar or high acid food or drink), tooth brushing habits (brushing too hard), tooth grinding, certain medical conditions and eating disorders.
+  A sensitive tooth could also indicate an underlying infection, so it’s important not to ignore, even if the pain is only dull and intermittent. Some people may also experience temporary sensitivity after having tooth whitening treatment. If you experience any dental pain, always seek professional advice.</mutableString>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="r1c-S8-jFo">
+                    <rect key="frame" x="0.0" y="-19" width="320" height="100"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Sensitive Teeth" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3qx-Zq-BrA">
+                            <rect key="frame" x="102" y="63" width="117" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DWU-DH-9ze">
+                            <rect key="frame" x="8" y="59" width="46" height="30"/>
+                            <state key="normal" title="back">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="back_click:" destination="-1" eventType="touchUpInside" id="1ef-6i-iq5"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.066666666669999999" green="0.70980392160000005" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="15x-I3-mcR" secondAttribute="trailing" id="Kuo-rX-Of0"/>
+                <constraint firstAttribute="bottom" secondItem="15x-I3-mcR" secondAttribute="bottom" constant="-2" id="OYq-5I-8ZJ"/>
+                <constraint firstItem="15x-I3-mcR" firstAttribute="leading" secondItem="jBa-N1-07r" secondAttribute="leading" id="QSv-13-KQv"/>
+                <constraint firstItem="3Qb-M1-EyS" firstAttribute="centerY" secondItem="jBa-N1-07r" secondAttribute="centerY" id="Vlh-Gg-zDx"/>
+                <constraint firstItem="3Qb-M1-EyS" firstAttribute="centerX" secondItem="jBa-N1-07r" secondAttribute="centerX" id="Vp0-sh-Zli"/>
+                <constraint firstAttribute="trailing" secondItem="r1c-S8-jFo" secondAttribute="trailing" id="o0h-UY-tgk"/>
+                <constraint firstItem="r1c-S8-jFo" firstAttribute="leading" secondItem="jBa-N1-07r" secondAttribute="leading" id="vay-j7-cDf"/>
+                <constraint firstItem="3qx-Zq-BrA" firstAttribute="centerX" secondItem="jBa-N1-07r" secondAttribute="centerX" id="vsJ-K4-eJ9"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="-258" y="319"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Footer.png" width="448" height="179"/>
+        <image name="trabs_bk.png" width="364" height="330"/>
+    </resources>
+</document>

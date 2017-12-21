@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>IHKeyboardAvoiding.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>PAPasscode.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RDVKeyboardAvoiding.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>477CB4715FC5CB41908924A445CF7883</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5B8581C08A6DBF57060F6785B1F87175</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>758BD33A54E94AFAEF82DF604E460408</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F685CCB5CF8550779D0CBE373F9A6B0E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

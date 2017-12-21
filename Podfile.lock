@@ -1,0 +1,16 @@
+PODS:
+  - IHKeyboardAvoiding (2.5)
+  - PAPasscode (1.0)
+  - RDVKeyboardAvoiding (1.1.0)
+
+DEPENDENCIES:
+  - IHKeyboardAvoiding
+  - PAPasscode (~> 1.0)
+  - RDVKeyboardAvoiding
+
+SPEC CHECKSUMS:
+  IHKeyboardAvoiding: 8f14fed93405dd2c44ce070a26f780d9e477538c
+  PAPasscode: b408fb87c530cad58a554e26482e87dbb14b7bc2
+  RDVKeyboardAvoiding: 5570e656400e7adfd8cd76cd6748544376899735
+
+COCOAPODS: 0.39.0

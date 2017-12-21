@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="JawProblemsViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Footer.png" translatesAutoresizingMaskIntoConstraints="NO" id="GO8-xQ-OVO">
+                    <rect key="frame" x="0.0" y="465" width="320" height="105"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="105" id="650-6e-kZj"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="105" id="ytH-YH-5cB"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8HH-gh-jsQ">
+                    <rect key="frame" x="-3" y="100" width="323" height="386"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="trabs_bk.png" translatesAutoresizingMaskIntoConstraints="NO" id="FI6-aE-2a8">
+                            <rect key="frame" x="16" y="-21" width="307" height="390"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v8R-zl-h7s">
+                            <rect key="frame" x="28" y="-1" width="269" height="339"/>
+                            <mutableString key="text">   If you experience pain in your jaw or have frequent headaches, you may have a condition known as temporo-mandibular joint (TMJ) disorder. TMJ disorder can cause some people to clench the jaw and grind their teeth at night. This can lead to facial pain, headaches, discomfort and clicking when biting or chewing, migraines as well as neck and shoulder pain, even back pain.
+   If you recognise any of these symptoms or suffer with these on a daily basis, we recommend that you visit us at Windsor Dental.
+   In some cases, the treatment includes wearing a hard plastic appliance at night. This also stops your teeth from becoming worn down by grinding and protects them. Depending on the origin and severity of your problem, you may need orthodontic treatment or maxillofacial surgery. Other solutions may include replacing missing teeth or adjusting any ill-fitting bridgework that you may have. </mutableString>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                            <string key="userLabel">When a tooth becomes infected due to tooth decay or as a result of an injury, root canal therapy may be required to save the remaining tooth structure. Once the infection starts to spread through the root canal system, it could eventually lead to an abscess, causing a great deal of discomfort. If root canal treatment is not carried out, the tooth may need to be removed. Here at Windsor Dental, our team is trained and experienced to perform root canal therapy to a very high standard. Once the tooth is numbed with a local anaesthetic, we will reduce your discomfort and stop the infection, while restoring your tooth using advanced materials and techniques. The treatment overall should feel no different to having an ordinary filling placed.     After all the infection is removed from the root canal system, it is then cleaned and filled to prevent any further infection. The tooth will have a temporary filling until the follow up appointment, when the tooth is checked to ensure all the infection has cleared. The tooth is then filled permanently and should look and function like a normal tooth.</string>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YNU-hX-LDw">
+                    <rect key="frame" x="0.0" y="-14" width="320" height="100"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uSZ-AI-142">
+                            <rect key="frame" x="16" y="60" width="46" height="30"/>
+                            <state key="normal" title="back">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="back_click:" destination="-1" eventType="touchUpInside" id="2OK-hT-qxc"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Jaw Problems" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7zX-so-Wj9">
+                            <rect key="frame" x="89" y="64" width="142" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.066666666669999999" green="0.70980392160000005" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="GO8-xQ-OVO" secondAttribute="bottom" constant="-2" id="3Fx-3a-HAM"/>
+                <constraint firstItem="8HH-gh-jsQ" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="5f3-UP-Xdz"/>
+                <constraint firstItem="7zX-so-Wj9" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="9EY-UA-UuG"/>
+                <constraint firstAttribute="trailing" secondItem="YNU-hX-LDw" secondAttribute="trailing" id="Asw-Ib-JiO"/>
+                <constraint firstItem="YNU-hX-LDw" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="NDY-wq-yos"/>
+                <constraint firstItem="GO8-xQ-OVO" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="hfQ-e8-nQy"/>
+                <constraint firstAttribute="trailing" secondItem="GO8-xQ-OVO" secondAttribute="trailing" id="kCv-gG-TjF"/>
+                <constraint firstItem="8HH-gh-jsQ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="sC2-ZQ-laa"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Footer.png" width="448" height="179"/>
+        <image name="trabs_bk.png" width="364" height="330"/>
+    </resources>
+</document>

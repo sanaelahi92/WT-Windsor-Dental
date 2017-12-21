@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CrownsViewController">
+            <connections>
+                <outlet property="view" destination="XSU-DG-fft" id="ISk-A1-rYH"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="XSU-DG-fft">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Footer.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ini-Vh-5VV">
+                    <rect key="frame" x="0.0" y="465" width="320" height="105"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="105" id="jSo-PB-1ns"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Kn-Fy-tMV">
+                    <rect key="frame" x="-140" y="-16" width="600" height="100"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YSb-Af-bAe">
+                            <rect key="frame" x="145" y="60" width="46" height="30"/>
+                            <state key="normal" title="back">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="back_click:" destination="-1" eventType="touchUpInside" id="amZ-Vz-bau"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Crowns" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ENL-1E-THy">
+                            <rect key="frame" x="271" y="64" width="58" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.066666666669999999" green="0.70980392160000005" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jFN-A4-Z8x">
+                    <rect key="frame" x="8" y="75" width="309" height="433"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="trabs_bk.png" translatesAutoresizingMaskIntoConstraints="NO" id="w7i-Nh-5d6">
+                            <rect key="frame" x="9" y="12" width="295" height="398"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3G7-at-wBS">
+                            <rect key="frame" x="24" y="43" width="261" height="329"/>
+                            <string key="text">    At Windsor Dental we offer a wide range of treatments for restoring teeth. Our team is particularly skilled and qualified to deliver these treatments to a very high standard. One type of restoration that is used to replace part of a single tooth is a crown.
+   A crown fits over the remaining part of a prepared tooth that has been affected by tooth decay. The crown is designed to strengthen what is left of the tooth structure and mimics its natural shape and colour, so it fits in with the rest of your teeth.
+   Also, if you have had root canal treatment you will need a crown to protect or cap the restored tooth, allowing you to eat and bite down on it as if it was a real tooth. Crowns are also used to anchor a bridge or denture firmly in place in the mouth.</string>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="3Kn-Fy-tMV" secondAttribute="trailing" constant="-140" id="Jgk-Mz-lS9"/>
+                <constraint firstItem="jFN-A4-Z8x" firstAttribute="centerX" secondItem="XSU-DG-fft" secondAttribute="centerX" id="Pxt-zM-Hti"/>
+                <constraint firstItem="jFN-A4-Z8x" firstAttribute="centerY" secondItem="XSU-DG-fft" secondAttribute="centerY" id="RDW-jq-0lQ"/>
+                <constraint firstItem="3Kn-Fy-tMV" firstAttribute="leading" secondItem="XSU-DG-fft" secondAttribute="leading" constant="-140" id="VJs-QS-otZ"/>
+                <constraint firstItem="ENL-1E-THy" firstAttribute="centerX" secondItem="XSU-DG-fft" secondAttribute="centerX" id="aZn-MF-25e"/>
+                <constraint firstAttribute="bottom" secondItem="Ini-Vh-5VV" secondAttribute="bottom" constant="-2" id="cIb-O6-jZO"/>
+                <constraint firstAttribute="trailing" secondItem="Ini-Vh-5VV" secondAttribute="trailing" id="h3L-4G-fS6"/>
+                <constraint firstItem="Ini-Vh-5VV" firstAttribute="leading" secondItem="XSU-DG-fft" secondAttribute="leading" id="vPe-Yg-6nr"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="-258" y="319"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Footer.png" width="448" height="179"/>
+        <image name="trabs_bk.png" width="364" height="330"/>
+    </resources>
+</document>

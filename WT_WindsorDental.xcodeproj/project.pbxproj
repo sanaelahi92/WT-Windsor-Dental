@@ -1,0 +1,1334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D08CEB91BC039A900FDCD95 /* dermal_fillers2png in Resources */ = {isa = PBXBuildFile; fileRef = 3D08CEB81BC039A900FDCD95 /* dermal_fillers2png */; };
+		3D08CEBB1BC043B900FDCD95 /* dermal_fillers_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D08CEBA1BC043B900FDCD95 /* dermal_fillers_3.png */; };
+		3D0C6E411CC3955F00F3C858 /* windsor_dental_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D0C6E401CC3955F00F3C858 /* windsor_dental_logo.png */; };
+		3D371FEC1BB9348200E19B15 /* salford_logo_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D371FEB1BB9348200E19B15 /* salford_logo_2.png */; };
+		3D371FEE1BB93A5A00E19B15 /* hulme_logo_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D371FED1BB93A5A00E19B15 /* hulme_logo_2.png */; };
+		3D371FF51BB9880D00E19B15 /* children_teeth_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D371FF01BB9880D00E19B15 /* children_teeth_img.png */; };
+		3D371FF61BB9880D00E19B15 /* dental_hygiene.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D371FF11BB9880D00E19B15 /* dental_hygiene.png */; };
+		3D371FF71BB9880D00E19B15 /* pregnancy_dental_care.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D371FF21BB9880D00E19B15 /* pregnancy_dental_care.png */; };
+		3D371FF81BB9880D00E19B15 /* preventing_oral_cancer_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D371FF31BB9880D00E19B15 /* preventing_oral_cancer_img.png */; };
+		3D371FF91BB9880D00E19B15 /* sensitive_teeth_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D371FF41BB9880D00E19B15 /* sensitive_teeth_img.png */; };
+		3D3720021BB998FD00E19B15 /* OralHealthCareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3720001BB998FD00E19B15 /* OralHealthCareViewController.m */; };
+		3D3720031BB998FD00E19B15 /* OralHealthCareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D3720011BB998FD00E19B15 /* OralHealthCareViewController.xib */; };
+		3D3720071BB9AD4900E19B15 /* TreatmentsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3720051BB9AD4900E19B15 /* TreatmentsTableViewCell.m */; };
+		3D3720081BB9AD4900E19B15 /* TreatmentsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D3720061BB9AD4900E19B15 /* TreatmentsTableViewCell.xib */; };
+		3D3720111BBA6E7400E19B15 /* emergency_dental_care.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D37200D1BBA6E7400E19B15 /* emergency_dental_care.png */; };
+		3D3720121BBA6E7400E19B15 /* jaw_pain.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D37200E1BBA6E7400E19B15 /* jaw_pain.png */; };
+		3D3720131BBA6E7400E19B15 /* root_canal_therapy.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D37200F1BBA6E7400E19B15 /* root_canal_therapy.png */; };
+		3D3720141BBA6E7400E19B15 /* tooth_extractions.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D3720101BBA6E7400E19B15 /* tooth_extractions.png */; };
+		3D37201A1BBA73F600E19B15 /* dermal_fillers.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D3720151BBA73F600E19B15 /* dermal_fillers.png */; };
+		3D37201B1BBA73F600E19B15 /* invisible_braces.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D3720161BBA73F600E19B15 /* invisible_braces.png */; };
+		3D37201C1BBA73F600E19B15 /* porcelain_veneers.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D3720171BBA73F600E19B15 /* porcelain_veneers.png */; };
+		3D37201D1BBA73F600E19B15 /* teeth_whitening.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D3720181BBA73F600E19B15 /* teeth_whitening.png */; };
+		3D37201E1BBA73F600E19B15 /* white_fillings.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D3720191BBA73F600E19B15 /* white_fillings.png */; };
+		3D3720241BBA75C200E19B15 /* Bridges.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D37201F1BBA75C200E19B15 /* Bridges.png */; };
+		3D3720251BBA75C200E19B15 /* crowns.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D3720201BBA75C200E19B15 /* crowns.png */; };
+		3D3720261BBA75C200E19B15 /* dental_implants.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D3720211BBA75C200E19B15 /* dental_implants.png */; };
+		3D3720271BBA75C200E19B15 /* Dentures.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D3720221BBA75C200E19B15 /* Dentures.png */; };
+		3D3720281BBA75C200E19B15 /* inlays_and_onlays.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D3720231BBA75C200E19B15 /* inlays_and_onlays.png */; };
+		3D37202C1BBA760100E19B15 /* GeneralDentistryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D37202A1BBA760100E19B15 /* GeneralDentistryViewController.m */; };
+		3D37202D1BBA760100E19B15 /* GeneralDentistryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D37202B1BBA760100E19B15 /* GeneralDentistryViewController.xib */; };
+		3D3720311BBA763800E19B15 /* CosmeticDentistryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D37202F1BBA763800E19B15 /* CosmeticDentistryViewController.m */; };
+		3D3720321BBA763800E19B15 /* CosmeticDentistryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D3720301BBA763800E19B15 /* CosmeticDentistryViewController.xib */; };
+		3D3720361BBA764E00E19B15 /* ReplacingTeethViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3720341BBA764E00E19B15 /* ReplacingTeethViewController.m */; };
+		3D3720371BBA764E00E19B15 /* ReplacingTeethViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D3720351BBA764E00E19B15 /* ReplacingTeethViewController.xib */; };
+		3D37203B1BBAA11100E19B15 /* ToothExtractionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3720391BBAA11100E19B15 /* ToothExtractionsViewController.m */; };
+		3D37203C1BBAA11100E19B15 /* ToothExtractionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D37203A1BBAA11100E19B15 /* ToothExtractionsViewController.xib */; };
+		3D3748131CD0E0F10031EF83 /* dental_health_icon_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D3748121CD0E0F10031EF83 /* dental_health_icon_3.png */; };
+		3D38741E1BA862E500646984 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D38741D1BA862E500646984 /* main.m */; };
+		3D3874211BA862E500646984 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3874201BA862E500646984 /* AppDelegate.m */; };
+		3D3874241BA862E500646984 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3874231BA862E500646984 /* ViewController.m */; };
+		3D3874271BA862E500646984 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D3874251BA862E500646984 /* Main.storyboard */; };
+		3D3874291BA862E500646984 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D3874281BA862E500646984 /* Images.xcassets */; };
+		3D38742C1BA862E500646984 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D38742A1BA862E500646984 /* LaunchScreen.xib */; };
+		3D3874381BA862E500646984 /* WT_WindsorDentalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3874371BA862E500646984 /* WT_WindsorDentalTests.m */; };
+		3D38744E1BA895AF00646984 /* main_bk.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D38744C1BA895AF00646984 /* main_bk.png */; };
+		3D3874721BA9816800646984 /* cal_sel.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D3874661BA9816800646984 /* cal_sel.png */; };
+		3D3874731BA9816800646984 /* cal_unsel.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D3874671BA9816800646984 /* cal_unsel.png */; };
+		3D38747A1BA9816800646984 /* smile_sel.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D38746E1BA9816800646984 /* smile_sel.png */; };
+		3D38747B1BA9816800646984 /* smile_unsel.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D38746F1BA9816800646984 /* smile_unsel.png */; };
+		3D38748A1BA99AF300646984 /* env_sel.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D3874841BA99AF300646984 /* env_sel.png */; };
+		3D38748B1BA99AF300646984 /* env_unsel.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D3874851BA99AF300646984 /* env_unsel.png */; };
+		3D38748C1BA99AF300646984 /* teeth_unsel.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D3874861BA99AF300646984 /* teeth_unsel.png */; };
+		3D38748D1BA99AF300646984 /* tooth_sel.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D3874871BA99AF300646984 /* tooth_sel.png */; };
+		3D3874901BA99D7700646984 /* gift_sel.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D38748E1BA99D7700646984 /* gift_sel.png */; };
+		3D3874911BA99D7700646984 /* gift_unsel.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D38748F1BA99D7700646984 /* gift_unsel.png */; };
+		3D3874941BA9A39400646984 /* econsult_sel.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D3874921BA9A39400646984 /* econsult_sel.png */; };
+		3D3874951BA9A39400646984 /* econsult_unsel.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D3874931BA9A39400646984 /* econsult_unsel.png */; };
+		3D3874991BA9B56C00646984 /* ind_img3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D3874981BA9B56C00646984 /* ind_img3.png */; };
+		3D38749F1BABEDE500646984 /* T1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D38749B1BABEDE500646984 /* T1.png */; };
+		3D3874A01BABEDE500646984 /* T2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D38749C1BABEDE500646984 /* T2.png */; };
+		3D3874A11BABEDE500646984 /* T3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D38749D1BABEDE500646984 /* T3.png */; };
+		3D3874A21BABEDE500646984 /* T4.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D38749E1BABEDE500646984 /* T4.png */; };
+		3D3874A41BABEEBD00646984 /* rec.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D3874A31BABEEBD00646984 /* rec.png */; };
+		3D3874A71BABFD2200646984 /* E-ConsultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3874A61BABFD2200646984 /* E-ConsultViewController.m */; };
+		3D3874AA1BABFF6500646984 /* GCPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3874A91BABFF6500646984 /* GCPlaceholderTextView.m */; };
+		3D3874AD1BAC01BF00646984 /* cam_btn_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D3874AC1BAC01BF00646984 /* cam_btn_bg.png */; };
+		3D3874B11BAC02AA00646984 /* ImageTakingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3874AF1BAC02AA00646984 /* ImageTakingViewController.m */; };
+		3D3874B21BAC02AA00646984 /* ImageTakingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D3874B01BAC02AA00646984 /* ImageTakingViewController.xib */; };
+		3D3874B51BAC379500646984 /* Image_Details.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3874B41BAC379500646984 /* Image_Details.m */; };
+		3D3874B91BAC382B00646984 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3874B71BAC382B00646984 /* CameraViewController.m */; };
+		3D3874BA1BAC382B00646984 /* CameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D3874B81BAC382B00646984 /* CameraViewController.xib */; };
+		3D3874BC1BAC38C300646984 /* canvas2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D3874BB1BAC38C300646984 /* canvas2.png */; };
+		3D3874BE1BAC38E700646984 /* camera3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D3874BD1BAC38E700646984 /* camera3.png */; };
+		3D402F881BD509DD00048D99 /* note_bak.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D402F871BD509DD00048D99 /* note_bak.png */; };
+		3D402F8E1BD6D70E00048D99 /* TextFieldValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D402F8D1BD6D70E00048D99 /* TextFieldValidator.m */; };
+		3D402F901BD7987400048D99 /* error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D402F8F1BD7987400048D99 /* error@2x.png */; };
+		3D518AA61CBAA79A00C1EAF4 /* book_appt_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D518AA51CBAA79A00C1EAF4 /* book_appt_2.png */; };
+		3D518AAE1CBAD48D00C1EAF4 /* appt_icon_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D518AA81CBAD48D00C1EAF4 /* appt_icon_2.png */; };
+		3D518AB11CBAD48D00C1EAF4 /* econsult_icon_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D518AAB1CBAD48D00C1EAF4 /* econsult_icon_2.png */; };
+		3D518AB21CBAD48D00C1EAF4 /* offers_icon_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D518AAC1CBAD48D00C1EAF4 /* offers_icon_2.png */; };
+		3D518AB71CBAE44F00C1EAF4 /* treatments_icon_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D518AB51CBAE44F00C1EAF4 /* treatments_icon_2.png */; };
+		3D518ABA1CBCDCB300C1EAF4 /* contact_icon_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D518AB81CBCDCB300C1EAF4 /* contact_icon_2.png */; };
+		3D518ABB1CBCDCB300C1EAF4 /* dental_health_icon_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D518AB91CBCDCB300C1EAF4 /* dental_health_icon_2.png */; };
+		3D75A0541BAC73740075004B /* ContactUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D75A0531BAC73740075004B /* ContactUsViewController.m */; };
+		3D75A0581BAD77790075004B /* SalfordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D75A0561BAD77790075004B /* SalfordViewController.m */; };
+		3D75A0591BAD77790075004B /* SalfordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D75A0571BAD77790075004B /* SalfordViewController.xib */; };
+		3D75A05D1BAD778A0075004B /* HulmeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D75A05B1BAD778A0075004B /* HulmeViewController.m */; };
+		3D75A05E1BAD778A0075004B /* HulmeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D75A05C1BAD778A0075004B /* HulmeViewController.xib */; };
+		3D75A0611BAD8C5B0075004B /* DentalHealthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D75A0601BAD8C5B0075004B /* DentalHealthViewController.m */; };
+		3D8339F91BAF28A50085EBB6 /* Hulme.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D8339F71BAF28A50085EBB6 /* Hulme.png */; };
+		3D8339FA1BAF28A50085EBB6 /* Salford.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D8339F81BAF28A50085EBB6 /* Salford.png */; };
+		3D8339FE1BAFCED60085EBB6 /* Footer.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D8339FD1BAFCED60085EBB6 /* Footer.png */; };
+		3D833A011BAFD12B0085EBB6 /* hulme_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D8339FF1BAFD12B0085EBB6 /* hulme_logo.png */; };
+		3D833A021BAFD12B0085EBB6 /* salford_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D833A001BAFD12B0085EBB6 /* salford_logo.png */; };
+		3D833A081BAFDB970085EBB6 /* call_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D833A071BAFDB970085EBB6 /* call_icon.png */; };
+		3D833A0C1BAFDCBB0085EBB6 /* trabs_bk.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D833A0B1BAFDCBB0085EBB6 /* trabs_bk.png */; };
+		3D91A30D1C2DAC3B0022F90D /* tab_bak.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D91A30C1C2DAC3B0022F90D /* tab_bak.png */; };
+		3D9B94C01C71FD4100615A32 /* OffersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9B94BE1C71FD4100615A32 /* OffersViewController.m */; };
+		3D9B94C11C71FD4100615A32 /* OffersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D9B94BF1C71FD4100615A32 /* OffersViewController.xib */; };
+		3DA0339F1BB127D400C29E3D /* MakeAppointmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA0339E1BB127D400C29E3D /* MakeAppointmentViewController.m */; };
+		3DA033A21BB1489300C29E3D /* TreatmentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA033A11BB1489200C29E3D /* TreatmentsViewController.m */; };
+		3DB897BF1BCBD1EF008C3390 /* PatientInstructionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB897BD1BCBD1EF008C3390 /* PatientInstructionsViewController.m */; };
+		3DB897C01BCBD1EF008C3390 /* PatientInstructionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DB897BE1BCBD1EF008C3390 /* PatientInstructionsViewController.xib */; };
+		3DBEDE531CA8FF68009CC396 /* MailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBEDE511CA8FF68009CC396 /* MailViewController.m */; };
+		3DBEDE541CA8FF68009CC396 /* MailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DBEDE521CA8FF68009CC396 /* MailViewController.xib */; };
+		3DD2F8BC1BC14DE20083827A /* JawProblemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD2F8BA1BC14DE20083827A /* JawProblemsViewController.m */; };
+		3DD2F8BD1BC14DE20083827A /* JawProblemsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DD2F8BB1BC14DE20083827A /* JawProblemsViewController.xib */; };
+		3DD2F8C11BC153F40083827A /* EmergencyDentalCareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD2F8BF1BC153F40083827A /* EmergencyDentalCareViewController.m */; };
+		3DD2F8C21BC153F40083827A /* EmergencyDentalCareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DD2F8C01BC153F40083827A /* EmergencyDentalCareViewController.xib */; };
+		3DD2F8C61BC154B00083827A /* RootCanalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD2F8C41BC154B00083827A /* RootCanalViewController.m */; };
+		3DD2F8C71BC154B00083827A /* RootCanalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DD2F8C51BC154B00083827A /* RootCanalViewController.xib */; };
+		3DD2F8CD1BC157A40083827A /* DentalHygieneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD2F8CB1BC157A40083827A /* DentalHygieneViewController.m */; };
+		3DD2F8CE1BC157A40083827A /* DentalHygieneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DD2F8CC1BC157A40083827A /* DentalHygieneViewController.xib */; };
+		3DD2F8D21BC15BB40083827A /* ChidrenTeethViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD2F8D01BC15BB40083827A /* ChidrenTeethViewController.m */; };
+		3DD2F8D31BC15BB40083827A /* ChidrenTeethViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DD2F8D11BC15BB40083827A /* ChidrenTeethViewController.xib */; };
+		3DD2F8D71BC15BD30083827A /* PreventingOralCancerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD2F8D51BC15BD30083827A /* PreventingOralCancerViewController.m */; };
+		3DD2F8D81BC15BD30083827A /* PreventingOralCancerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DD2F8D61BC15BD30083827A /* PreventingOralCancerViewController.xib */; };
+		3DD2F8DC1BC15BE90083827A /* SensitiveTeethViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD2F8DA1BC15BE90083827A /* SensitiveTeethViewController.m */; };
+		3DD2F8DD1BC15BE90083827A /* SensitiveTeethViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DD2F8DB1BC15BE90083827A /* SensitiveTeethViewController.xib */; };
+		3DD2F8E41BC15C650083827A /* PregnancyDentalCareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD2F8E21BC15C650083827A /* PregnancyDentalCareViewController.m */; };
+		3DD2F8E51BC15C650083827A /* PregnancyDentalCareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DD2F8E31BC15C650083827A /* PregnancyDentalCareViewController.xib */; };
+		3DD2F8EB1BC175770083827A /* DermalFillersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD2F8E91BC175770083827A /* DermalFillersViewController.m */; };
+		3DD2F8EC1BC175770083827A /* DermalFillersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DD2F8EA1BC175770083827A /* DermalFillersViewController.xib */; };
+		3DD2F8F01BC175A70083827A /* TeethWhiteningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD2F8EE1BC175A70083827A /* TeethWhiteningViewController.m */; };
+		3DD2F8F11BC175A70083827A /* TeethWhiteningViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DD2F8EF1BC175A70083827A /* TeethWhiteningViewController.xib */; };
+		3DD2F8F51BC175DC0083827A /* PorcelainVeneersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD2F8F31BC175DC0083827A /* PorcelainVeneersViewController.m */; };
+		3DD2F8F61BC175DC0083827A /* PorcelainVeneersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DD2F8F41BC175DC0083827A /* PorcelainVeneersViewController.xib */; };
+		3DD2F8FA1BC176080083827A /* WhiteFillingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD2F8F81BC176080083827A /* WhiteFillingsViewController.m */; };
+		3DD2F8FB1BC176080083827A /* WhiteFillingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DD2F8F91BC176080083827A /* WhiteFillingsViewController.xib */; };
+		3DD2F8FF1BC176290083827A /* InvisibleBracesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD2F8FD1BC176290083827A /* InvisibleBracesViewController.m */; };
+		3DD2F9001BC176290083827A /* InvisibleBracesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DD2F8FE1BC176290083827A /* InvisibleBracesViewController.xib */; };
+		3DD2F9041BC195A90083827A /* DentalImplantsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD2F9021BC195A90083827A /* DentalImplantsViewController.m */; };
+		3DD2F9051BC195A90083827A /* DentalImplantsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DD2F9031BC195A90083827A /* DentalImplantsViewController.xib */; };
+		3DD2F9091BC197BC0083827A /* DenturesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD2F9071BC197BC0083827A /* DenturesViewController.m */; };
+		3DD2F90A1BC197BC0083827A /* DenturesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DD2F9081BC197BC0083827A /* DenturesViewController.xib */; };
+		3DD2F90E1BC197D50083827A /* BridgesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD2F90C1BC197D50083827A /* BridgesViewController.m */; };
+		3DD2F90F1BC197D50083827A /* BridgesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DD2F90D1BC197D50083827A /* BridgesViewController.xib */; };
+		3DD2F9131BC197E50083827A /* CrownsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD2F9111BC197E50083827A /* CrownsViewController.m */; };
+		3DD2F9141BC197E50083827A /* CrownsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DD2F9121BC197E50083827A /* CrownsViewController.xib */; };
+		3DD2F9181BC197FE0083827A /* InlaysOnlaysViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD2F9161BC197FE0083827A /* InlaysOnlaysViewController.m */; };
+		3DD2F9191BC197FE0083827A /* InlaysOnlaysViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DD2F9171BC197FE0083827A /* InlaysOnlaysViewController.xib */; };
+		3DD2F91D1BC25D590083827A /* CodeVerificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD2F91B1BC25D590083827A /* CodeVerificationViewController.m */; };
+		3DD2F91E1BC25D590083827A /* CodeVerificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DD2F91C1BC25D590083827A /* CodeVerificationViewController.xib */; };
+		3DF312D71C0B406800BC6219 /* windsor_logo_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DF312D61C0B406800BC6219 /* windsor_logo_small.png */; };
+		3DF312EC1C0C339B00BC6219 /* windsor_dental_logo_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DF312EB1C0C339B00BC6219 /* windsor_dental_logo_white.png */; };
+		3DF312EE1C0C34CD00BC6219 /* launch_windsor_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DF312ED1C0C34CD00BC6219 /* launch_windsor_logo.png */; };
+		3DF312F11C0D4E1200BC6219 /* hulme_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DF312EF1C0D4E1200BC6219 /* hulme_img.png */; };
+		3DF312F21C0D4E1200BC6219 /* salford_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DF312F01C0D4E1200BC6219 /* salford_img.png */; };
+		3DF312F91C0D77BB00BC6219 /* hulme_logo_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DF312F71C0D77BB00BC6219 /* hulme_logo_img.png */; };
+		3DF312FA1C0D77BB00BC6219 /* salford_logo_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DF312F81C0D77BB00BC6219 /* salford_logo_img.png */; };
+		3DF312FE1C1BF52F00BC6219 /* RedContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF312FC1C1BF52F00BC6219 /* RedContentViewController.m */; };
+		3DF312FF1C1BF52F00BC6219 /* RedContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DF312FD1C1BF52F00BC6219 /* RedContentViewController.xib */; };
+		3DF313031C1BF54400BC6219 /* GreenContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF313011C1BF54400BC6219 /* GreenContentViewController.m */; };
+		3DF313041C1BF54400BC6219 /* GreenContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DF313021C1BF54400BC6219 /* GreenContentViewController.xib */; };
+		3DF313081C1BF55E00BC6219 /* AmberContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF313061C1BF55E00BC6219 /* AmberContentViewController.m */; };
+		3DF313091C1BF55E00BC6219 /* AmberContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DF313071C1BF55E00BC6219 /* AmberContentViewController.xib */; };
+		62183DE6DA49DD3D5DDFE54B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 006FDD233DC1A05DFA20DABD /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D3874321BA862E500646984 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D3874101BA862E500646984 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D3874171BA862E500646984;
+			remoteInfo = WT_WindsorDental;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		006FDD233DC1A05DFA20DABD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D08CEB81BC039A900FDCD95 /* dermal_fillers2png */ = {isa = PBXFileReference; lastKnownFileType = file; path = dermal_fillers2png; sourceTree = "<group>"; };
+		3D08CEBA1BC043B900FDCD95 /* dermal_fillers_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dermal_fillers_3.png; sourceTree = "<group>"; };
+		3D0C6E401CC3955F00F3C858 /* windsor_dental_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = windsor_dental_logo.png; sourceTree = "<group>"; };
+		3D371FEB1BB9348200E19B15 /* salford_logo_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = salford_logo_2.png; sourceTree = "<group>"; };
+		3D371FED1BB93A5A00E19B15 /* hulme_logo_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hulme_logo_2.png; sourceTree = "<group>"; };
+		3D371FF01BB9880D00E19B15 /* children_teeth_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = children_teeth_img.png; sourceTree = "<group>"; };
+		3D371FF11BB9880D00E19B15 /* dental_hygiene.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dental_hygiene.png; sourceTree = "<group>"; };
+		3D371FF21BB9880D00E19B15 /* pregnancy_dental_care.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pregnancy_dental_care.png; sourceTree = "<group>"; };
+		3D371FF31BB9880D00E19B15 /* preventing_oral_cancer_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = preventing_oral_cancer_img.png; sourceTree = "<group>"; };
+		3D371FF41BB9880D00E19B15 /* sensitive_teeth_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sensitive_teeth_img.png; sourceTree = "<group>"; };
+		3D371FFF1BB998FD00E19B15 /* OralHealthCareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OralHealthCareViewController.h; sourceTree = "<group>"; };
+		3D3720001BB998FD00E19B15 /* OralHealthCareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OralHealthCareViewController.m; sourceTree = "<group>"; };
+		3D3720011BB998FD00E19B15 /* OralHealthCareViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OralHealthCareViewController.xib; sourceTree = "<group>"; };
+		3D3720041BB9AD4900E19B15 /* TreatmentsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreatmentsTableViewCell.h; sourceTree = "<group>"; };
+		3D3720051BB9AD4900E19B15 /* TreatmentsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreatmentsTableViewCell.m; sourceTree = "<group>"; };
+		3D3720061BB9AD4900E19B15 /* TreatmentsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TreatmentsTableViewCell.xib; sourceTree = "<group>"; };
+		3D37200D1BBA6E7400E19B15 /* emergency_dental_care.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emergency_dental_care.png; sourceTree = "<group>"; };
+		3D37200E1BBA6E7400E19B15 /* jaw_pain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jaw_pain.png; sourceTree = "<group>"; };
+		3D37200F1BBA6E7400E19B15 /* root_canal_therapy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = root_canal_therapy.png; sourceTree = "<group>"; };
+		3D3720101BBA6E7400E19B15 /* tooth_extractions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tooth_extractions.png; sourceTree = "<group>"; };
+		3D3720151BBA73F600E19B15 /* dermal_fillers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dermal_fillers.png; sourceTree = "<group>"; };
+		3D3720161BBA73F600E19B15 /* invisible_braces.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = invisible_braces.png; sourceTree = "<group>"; };
+		3D3720171BBA73F600E19B15 /* porcelain_veneers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = porcelain_veneers.png; sourceTree = "<group>"; };
+		3D3720181BBA73F600E19B15 /* teeth_whitening.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teeth_whitening.png; sourceTree = "<group>"; };
+		3D3720191BBA73F600E19B15 /* white_fillings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white_fillings.png; sourceTree = "<group>"; };
+		3D37201F1BBA75C200E19B15 /* Bridges.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bridges.png; sourceTree = "<group>"; };
+		3D3720201BBA75C200E19B15 /* crowns.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crowns.png; sourceTree = "<group>"; };
+		3D3720211BBA75C200E19B15 /* dental_implants.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dental_implants.png; sourceTree = "<group>"; };
+		3D3720221BBA75C200E19B15 /* Dentures.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dentures.png; sourceTree = "<group>"; };
+		3D3720231BBA75C200E19B15 /* inlays_and_onlays.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inlays_and_onlays.png; sourceTree = "<group>"; };
+		3D3720291BBA760100E19B15 /* GeneralDentistryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneralDentistryViewController.h; sourceTree = "<group>"; };
+		3D37202A1BBA760100E19B15 /* GeneralDentistryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneralDentistryViewController.m; sourceTree = "<group>"; };
+		3D37202B1BBA760100E19B15 /* GeneralDentistryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GeneralDentistryViewController.xib; sourceTree = "<group>"; };
+		3D37202E1BBA763800E19B15 /* CosmeticDentistryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CosmeticDentistryViewController.h; sourceTree = "<group>"; };
+		3D37202F1BBA763800E19B15 /* CosmeticDentistryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CosmeticDentistryViewController.m; sourceTree = "<group>"; };
+		3D3720301BBA763800E19B15 /* CosmeticDentistryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CosmeticDentistryViewController.xib; sourceTree = "<group>"; };
+		3D3720331BBA764E00E19B15 /* ReplacingTeethViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReplacingTeethViewController.h; sourceTree = "<group>"; };
+		3D3720341BBA764E00E19B15 /* ReplacingTeethViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplacingTeethViewController.m; sourceTree = "<group>"; };
+		3D3720351BBA764E00E19B15 /* ReplacingTeethViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReplacingTeethViewController.xib; sourceTree = "<group>"; };
+		3D3720381BBAA11100E19B15 /* ToothExtractionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToothExtractionsViewController.h; sourceTree = "<group>"; };
+		3D3720391BBAA11100E19B15 /* ToothExtractionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToothExtractionsViewController.m; sourceTree = "<group>"; };
+		3D37203A1BBAA11100E19B15 /* ToothExtractionsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ToothExtractionsViewController.xib; sourceTree = "<group>"; };
+		3D3748121CD0E0F10031EF83 /* dental_health_icon_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dental_health_icon_3.png; sourceTree = "<group>"; };
+		3D3874181BA862E500646984 /* Windsor Dental.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Windsor Dental.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D38741C1BA862E500646984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D38741D1BA862E500646984 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D38741F1BA862E500646984 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3D3874201BA862E500646984 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3D3874221BA862E500646984 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3D3874231BA862E500646984 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3D3874261BA862E500646984 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D3874281BA862E500646984 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3D38742B1BA862E500646984 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3D3874311BA862E500646984 /* WT_WindsorDentalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WT_WindsorDentalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D3874361BA862E500646984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D3874371BA862E500646984 /* WT_WindsorDentalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WT_WindsorDentalTests.m; sourceTree = "<group>"; };
+		3D38744C1BA895AF00646984 /* main_bk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_bk.png; sourceTree = "<group>"; };
+		3D3874661BA9816800646984 /* cal_sel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cal_sel.png; sourceTree = "<group>"; };
+		3D3874671BA9816800646984 /* cal_unsel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cal_unsel.png; sourceTree = "<group>"; };
+		3D38746E1BA9816800646984 /* smile_sel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smile_sel.png; sourceTree = "<group>"; };
+		3D38746F1BA9816800646984 /* smile_unsel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smile_unsel.png; sourceTree = "<group>"; };
+		3D3874841BA99AF300646984 /* env_sel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = env_sel.png; sourceTree = "<group>"; };
+		3D3874851BA99AF300646984 /* env_unsel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = env_unsel.png; sourceTree = "<group>"; };
+		3D3874861BA99AF300646984 /* teeth_unsel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = teeth_unsel.png; sourceTree = "<group>"; };
+		3D3874871BA99AF300646984 /* tooth_sel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tooth_sel.png; sourceTree = "<group>"; };
+		3D38748E1BA99D7700646984 /* gift_sel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gift_sel.png; sourceTree = "<group>"; };
+		3D38748F1BA99D7700646984 /* gift_unsel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gift_unsel.png; sourceTree = "<group>"; };
+		3D3874921BA9A39400646984 /* econsult_sel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = econsult_sel.png; sourceTree = "<group>"; };
+		3D3874931BA9A39400646984 /* econsult_unsel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = econsult_unsel.png; sourceTree = "<group>"; };
+		3D3874981BA9B56C00646984 /* ind_img3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ind_img3.png; sourceTree = "<group>"; };
+		3D38749B1BABEDE500646984 /* T1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = T1.png; sourceTree = "<group>"; };
+		3D38749C1BABEDE500646984 /* T2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = T2.png; sourceTree = "<group>"; };
+		3D38749D1BABEDE500646984 /* T3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = T3.png; sourceTree = "<group>"; };
+		3D38749E1BABEDE500646984 /* T4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = T4.png; sourceTree = "<group>"; };
+		3D3874A31BABEEBD00646984 /* rec.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rec.png; sourceTree = "<group>"; };
+		3D3874A51BABFD2200646984 /* E-ConsultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "E-ConsultViewController.h"; sourceTree = "<group>"; };
+		3D3874A61BABFD2200646984 /* E-ConsultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "E-ConsultViewController.m"; sourceTree = "<group>"; };
+		3D3874A81BABFF6500646984 /* GCPlaceholderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCPlaceholderTextView.h; sourceTree = "<group>"; };
+		3D3874A91BABFF6500646984 /* GCPlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCPlaceholderTextView.m; sourceTree = "<group>"; };
+		3D3874AC1BAC01BF00646984 /* cam_btn_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cam_btn_bg.png; sourceTree = "<group>"; };
+		3D3874AE1BAC02AA00646984 /* ImageTakingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTakingViewController.h; sourceTree = "<group>"; };
+		3D3874AF1BAC02AA00646984 /* ImageTakingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageTakingViewController.m; sourceTree = "<group>"; };
+		3D3874B01BAC02AA00646984 /* ImageTakingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageTakingViewController.xib; sourceTree = "<group>"; };
+		3D3874B31BAC379500646984 /* Image_Details.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image_Details.h; sourceTree = "<group>"; };
+		3D3874B41BAC379500646984 /* Image_Details.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Image_Details.m; sourceTree = "<group>"; };
+		3D3874B61BAC382B00646984 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		3D3874B71BAC382B00646984 /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		3D3874B81BAC382B00646984 /* CameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CameraViewController.xib; sourceTree = "<group>"; };
+		3D3874BB1BAC38C300646984 /* canvas2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = canvas2.png; sourceTree = "<group>"; };
+		3D3874BD1BAC38E700646984 /* camera3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera3.png; sourceTree = "<group>"; };
+		3D402F871BD509DD00048D99 /* note_bak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note_bak.png; sourceTree = "<group>"; };
+		3D402F8C1BD6D70E00048D99 /* TextFieldValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldValidator.h; sourceTree = "<group>"; };
+		3D402F8D1BD6D70E00048D99 /* TextFieldValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldValidator.m; sourceTree = "<group>"; };
+		3D402F8F1BD7987400048D99 /* error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "error@2x.png"; sourceTree = "<group>"; };
+		3D518AA51CBAA79A00C1EAF4 /* book_appt_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = book_appt_2.png; sourceTree = "<group>"; };
+		3D518AA81CBAD48D00C1EAF4 /* appt_icon_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appt_icon_2.png; sourceTree = "<group>"; };
+		3D518AAB1CBAD48D00C1EAF4 /* econsult_icon_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = econsult_icon_2.png; sourceTree = "<group>"; };
+		3D518AAC1CBAD48D00C1EAF4 /* offers_icon_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = offers_icon_2.png; sourceTree = "<group>"; };
+		3D518AB51CBAE44F00C1EAF4 /* treatments_icon_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = treatments_icon_2.png; sourceTree = "<group>"; };
+		3D518AB81CBCDCB300C1EAF4 /* contact_icon_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contact_icon_2.png; sourceTree = "<group>"; };
+		3D518AB91CBCDCB300C1EAF4 /* dental_health_icon_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dental_health_icon_2.png; sourceTree = "<group>"; };
+		3D75A0521BAC73740075004B /* ContactUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactUsViewController.h; sourceTree = "<group>"; };
+		3D75A0531BAC73740075004B /* ContactUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactUsViewController.m; sourceTree = "<group>"; };
+		3D75A0551BAD77790075004B /* SalfordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SalfordViewController.h; sourceTree = "<group>"; };
+		3D75A0561BAD77790075004B /* SalfordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SalfordViewController.m; sourceTree = "<group>"; };
+		3D75A0571BAD77790075004B /* SalfordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SalfordViewController.xib; sourceTree = "<group>"; };
+		3D75A05A1BAD778A0075004B /* HulmeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HulmeViewController.h; sourceTree = "<group>"; };
+		3D75A05B1BAD778A0075004B /* HulmeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HulmeViewController.m; sourceTree = "<group>"; };
+		3D75A05C1BAD778A0075004B /* HulmeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HulmeViewController.xib; sourceTree = "<group>"; };
+		3D75A05F1BAD8C5B0075004B /* DentalHealthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DentalHealthViewController.h; sourceTree = "<group>"; };
+		3D75A0601BAD8C5B0075004B /* DentalHealthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DentalHealthViewController.m; sourceTree = "<group>"; };
+		3D8339F71BAF28A50085EBB6 /* Hulme.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hulme.png; sourceTree = "<group>"; };
+		3D8339F81BAF28A50085EBB6 /* Salford.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Salford.png; sourceTree = "<group>"; };
+		3D8339FD1BAFCED60085EBB6 /* Footer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Footer.png; sourceTree = "<group>"; };
+		3D8339FF1BAFD12B0085EBB6 /* hulme_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hulme_logo.png; sourceTree = "<group>"; };
+		3D833A001BAFD12B0085EBB6 /* salford_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = salford_logo.png; sourceTree = "<group>"; };
+		3D833A071BAFDB970085EBB6 /* call_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call_icon.png; sourceTree = "<group>"; };
+		3D833A0B1BAFDCBB0085EBB6 /* trabs_bk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trabs_bk.png; sourceTree = "<group>"; };
+		3D91A30C1C2DAC3B0022F90D /* tab_bak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_bak.png; sourceTree = "<group>"; };
+		3D9B94BD1C71FD4100615A32 /* OffersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OffersViewController.h; sourceTree = "<group>"; };
+		3D9B94BE1C71FD4100615A32 /* OffersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OffersViewController.m; sourceTree = "<group>"; };
+		3D9B94BF1C71FD4100615A32 /* OffersViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OffersViewController.xib; sourceTree = "<group>"; };
+		3DA0339D1BB127D400C29E3D /* MakeAppointmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MakeAppointmentViewController.h; sourceTree = "<group>"; };
+		3DA0339E1BB127D400C29E3D /* MakeAppointmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MakeAppointmentViewController.m; sourceTree = "<group>"; };
+		3DA033A01BB1489200C29E3D /* TreatmentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreatmentsViewController.h; sourceTree = "<group>"; };
+		3DA033A11BB1489200C29E3D /* TreatmentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreatmentsViewController.m; sourceTree = "<group>"; };
+		3DB897BC1BCBD1EF008C3390 /* PatientInstructionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatientInstructionsViewController.h; sourceTree = "<group>"; };
+		3DB897BD1BCBD1EF008C3390 /* PatientInstructionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatientInstructionsViewController.m; sourceTree = "<group>"; };
+		3DB897BE1BCBD1EF008C3390 /* PatientInstructionsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PatientInstructionsViewController.xib; sourceTree = "<group>"; };
+		3DBEDE501CA8FF68009CC396 /* MailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MailViewController.h; sourceTree = "<group>"; };
+		3DBEDE511CA8FF68009CC396 /* MailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MailViewController.m; sourceTree = "<group>"; };
+		3DBEDE521CA8FF68009CC396 /* MailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MailViewController.xib; sourceTree = "<group>"; };
+		3DD2F8B91BC14DE20083827A /* JawProblemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JawProblemsViewController.h; sourceTree = "<group>"; };
+		3DD2F8BA1BC14DE20083827A /* JawProblemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JawProblemsViewController.m; sourceTree = "<group>"; };
+		3DD2F8BB1BC14DE20083827A /* JawProblemsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JawProblemsViewController.xib; sourceTree = "<group>"; };
+		3DD2F8BE1BC153F40083827A /* EmergencyDentalCareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmergencyDentalCareViewController.h; sourceTree = "<group>"; };
+		3DD2F8BF1BC153F40083827A /* EmergencyDentalCareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmergencyDentalCareViewController.m; sourceTree = "<group>"; };
+		3DD2F8C01BC153F40083827A /* EmergencyDentalCareViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmergencyDentalCareViewController.xib; sourceTree = "<group>"; };
+		3DD2F8C31BC154B00083827A /* RootCanalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootCanalViewController.h; sourceTree = "<group>"; };
+		3DD2F8C41BC154B00083827A /* RootCanalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootCanalViewController.m; sourceTree = "<group>"; };
+		3DD2F8C51BC154B00083827A /* RootCanalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootCanalViewController.xib; sourceTree = "<group>"; };
+		3DD2F8CA1BC157A40083827A /* DentalHygieneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DentalHygieneViewController.h; sourceTree = "<group>"; };
+		3DD2F8CB1BC157A40083827A /* DentalHygieneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DentalHygieneViewController.m; sourceTree = "<group>"; };
+		3DD2F8CC1BC157A40083827A /* DentalHygieneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DentalHygieneViewController.xib; sourceTree = "<group>"; };
+		3DD2F8CF1BC15BB40083827A /* ChidrenTeethViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChidrenTeethViewController.h; sourceTree = "<group>"; };
+		3DD2F8D01BC15BB40083827A /* ChidrenTeethViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChidrenTeethViewController.m; sourceTree = "<group>"; };
+		3DD2F8D11BC15BB40083827A /* ChidrenTeethViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChidrenTeethViewController.xib; sourceTree = "<group>"; };
+		3DD2F8D41BC15BD30083827A /* PreventingOralCancerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreventingOralCancerViewController.h; sourceTree = "<group>"; };
+		3DD2F8D51BC15BD30083827A /* PreventingOralCancerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreventingOralCancerViewController.m; sourceTree = "<group>"; };
+		3DD2F8D61BC15BD30083827A /* PreventingOralCancerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreventingOralCancerViewController.xib; sourceTree = "<group>"; };
+		3DD2F8D91BC15BE90083827A /* SensitiveTeethViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SensitiveTeethViewController.h; sourceTree = "<group>"; };
+		3DD2F8DA1BC15BE90083827A /* SensitiveTeethViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SensitiveTeethViewController.m; sourceTree = "<group>"; };
+		3DD2F8DB1BC15BE90083827A /* SensitiveTeethViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SensitiveTeethViewController.xib; sourceTree = "<group>"; };
+		3DD2F8E11BC15C650083827A /* PregnancyDentalCareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PregnancyDentalCareViewController.h; sourceTree = "<group>"; };
+		3DD2F8E21BC15C650083827A /* PregnancyDentalCareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PregnancyDentalCareViewController.m; sourceTree = "<group>"; };
+		3DD2F8E31BC15C650083827A /* PregnancyDentalCareViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PregnancyDentalCareViewController.xib; sourceTree = "<group>"; };
+		3DD2F8E81BC175770083827A /* DermalFillersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DermalFillersViewController.h; sourceTree = "<group>"; };
+		3DD2F8E91BC175770083827A /* DermalFillersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DermalFillersViewController.m; sourceTree = "<group>"; };
+		3DD2F8EA1BC175770083827A /* DermalFillersViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DermalFillersViewController.xib; sourceTree = "<group>"; };
+		3DD2F8ED1BC175A70083827A /* TeethWhiteningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeethWhiteningViewController.h; sourceTree = "<group>"; };
+		3DD2F8EE1BC175A70083827A /* TeethWhiteningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeethWhiteningViewController.m; sourceTree = "<group>"; };
+		3DD2F8EF1BC175A70083827A /* TeethWhiteningViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TeethWhiteningViewController.xib; sourceTree = "<group>"; };
+		3DD2F8F21BC175DC0083827A /* PorcelainVeneersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PorcelainVeneersViewController.h; sourceTree = "<group>"; };
+		3DD2F8F31BC175DC0083827A /* PorcelainVeneersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PorcelainVeneersViewController.m; sourceTree = "<group>"; };
+		3DD2F8F41BC175DC0083827A /* PorcelainVeneersViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PorcelainVeneersViewController.xib; sourceTree = "<group>"; };
+		3DD2F8F71BC176080083827A /* WhiteFillingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhiteFillingsViewController.h; sourceTree = "<group>"; };
+		3DD2F8F81BC176080083827A /* WhiteFillingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiteFillingsViewController.m; sourceTree = "<group>"; };
+		3DD2F8F91BC176080083827A /* WhiteFillingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WhiteFillingsViewController.xib; sourceTree = "<group>"; };
+		3DD2F8FC1BC176290083827A /* InvisibleBracesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvisibleBracesViewController.h; sourceTree = "<group>"; };
+		3DD2F8FD1BC176290083827A /* InvisibleBracesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InvisibleBracesViewController.m; sourceTree = "<group>"; };
+		3DD2F8FE1BC176290083827A /* InvisibleBracesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InvisibleBracesViewController.xib; sourceTree = "<group>"; };
+		3DD2F9011BC195A90083827A /* DentalImplantsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DentalImplantsViewController.h; sourceTree = "<group>"; };
+		3DD2F9021BC195A90083827A /* DentalImplantsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DentalImplantsViewController.m; sourceTree = "<group>"; };
+		3DD2F9031BC195A90083827A /* DentalImplantsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DentalImplantsViewController.xib; sourceTree = "<group>"; };
+		3DD2F9061BC197BC0083827A /* DenturesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DenturesViewController.h; sourceTree = "<group>"; };
+		3DD2F9071BC197BC0083827A /* DenturesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DenturesViewController.m; sourceTree = "<group>"; };
+		3DD2F9081BC197BC0083827A /* DenturesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DenturesViewController.xib; sourceTree = "<group>"; };
+		3DD2F90B1BC197D50083827A /* BridgesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgesViewController.h; sourceTree = "<group>"; };
+		3DD2F90C1BC197D50083827A /* BridgesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridgesViewController.m; sourceTree = "<group>"; };
+		3DD2F90D1BC197D50083827A /* BridgesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BridgesViewController.xib; sourceTree = "<group>"; };
+		3DD2F9101BC197E50083827A /* CrownsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrownsViewController.h; sourceTree = "<group>"; };
+		3DD2F9111BC197E50083827A /* CrownsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CrownsViewController.m; sourceTree = "<group>"; };
+		3DD2F9121BC197E50083827A /* CrownsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CrownsViewController.xib; sourceTree = "<group>"; };
+		3DD2F9151BC197FE0083827A /* InlaysOnlaysViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InlaysOnlaysViewController.h; sourceTree = "<group>"; };
+		3DD2F9161BC197FE0083827A /* InlaysOnlaysViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InlaysOnlaysViewController.m; sourceTree = "<group>"; };
+		3DD2F9171BC197FE0083827A /* InlaysOnlaysViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InlaysOnlaysViewController.xib; sourceTree = "<group>"; };
+		3DD2F91A1BC25D590083827A /* CodeVerificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeVerificationViewController.h; sourceTree = "<group>"; };
+		3DD2F91B1BC25D590083827A /* CodeVerificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeVerificationViewController.m; sourceTree = "<group>"; };
+		3DD2F91C1BC25D590083827A /* CodeVerificationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CodeVerificationViewController.xib; sourceTree = "<group>"; };
+		3DF312D61C0B406800BC6219 /* windsor_logo_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = windsor_logo_small.png; sourceTree = "<group>"; };
+		3DF312EB1C0C339B00BC6219 /* windsor_dental_logo_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = windsor_dental_logo_white.png; sourceTree = "<group>"; };
+		3DF312ED1C0C34CD00BC6219 /* launch_windsor_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch_windsor_logo.png; sourceTree = "<group>"; };
+		3DF312EF1C0D4E1200BC6219 /* hulme_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hulme_img.png; sourceTree = "<group>"; };
+		3DF312F01C0D4E1200BC6219 /* salford_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = salford_img.png; sourceTree = "<group>"; };
+		3DF312F71C0D77BB00BC6219 /* hulme_logo_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hulme_logo_img.png; sourceTree = "<group>"; };
+		3DF312F81C0D77BB00BC6219 /* salford_logo_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = salford_logo_img.png; sourceTree = "<group>"; };
+		3DF312FB1C1BF52F00BC6219 /* RedContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedContentViewController.h; sourceTree = "<group>"; };
+		3DF312FC1C1BF52F00BC6219 /* RedContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedContentViewController.m; sourceTree = "<group>"; };
+		3DF312FD1C1BF52F00BC6219 /* RedContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RedContentViewController.xib; sourceTree = "<group>"; };
+		3DF313001C1BF54400BC6219 /* GreenContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GreenContentViewController.h; sourceTree = "<group>"; };
+		3DF313011C1BF54400BC6219 /* GreenContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GreenContentViewController.m; sourceTree = "<group>"; };
+		3DF313021C1BF54400BC6219 /* GreenContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GreenContentViewController.xib; sourceTree = "<group>"; };
+		3DF313051C1BF55E00BC6219 /* AmberContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmberContentViewController.h; sourceTree = "<group>"; };
+		3DF313061C1BF55E00BC6219 /* AmberContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmberContentViewController.m; sourceTree = "<group>"; };
+		3DF313071C1BF55E00BC6219 /* AmberContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AmberContentViewController.xib; sourceTree = "<group>"; };
+		449ECC9E229F097E1D9F7BA9 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A0B2DAA6973152BE71AC3CEA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D3874151BA862E500646984 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62183DE6DA49DD3D5DDFE54B /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D38742E1BA862E500646984 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D371FEF1BB987EB00E19B15 /* Oral Healthcare */ = {
+			isa = PBXGroup;
+			children = (
+				3D371FF01BB9880D00E19B15 /* children_teeth_img.png */,
+				3D371FF11BB9880D00E19B15 /* dental_hygiene.png */,
+				3D371FF21BB9880D00E19B15 /* pregnancy_dental_care.png */,
+				3D371FF31BB9880D00E19B15 /* preventing_oral_cancer_img.png */,
+				3D371FF41BB9880D00E19B15 /* sensitive_teeth_img.png */,
+			);
+			name = "Oral Healthcare";
+			sourceTree = "<group>";
+		};
+		3D37200A1BBA6E2300E19B15 /* General Dentistry */ = {
+			isa = PBXGroup;
+			children = (
+				3D37200D1BBA6E7400E19B15 /* emergency_dental_care.png */,
+				3D37200E1BBA6E7400E19B15 /* jaw_pain.png */,
+				3D37200F1BBA6E7400E19B15 /* root_canal_therapy.png */,
+				3D3720101BBA6E7400E19B15 /* tooth_extractions.png */,
+			);
+			name = "General Dentistry";
+			sourceTree = "<group>";
+		};
+		3D37200B1BBA6E3F00E19B15 /* Cosmetic Dentistry */ = {
+			isa = PBXGroup;
+			children = (
+				3D08CEB81BC039A900FDCD95 /* dermal_fillers2png */,
+				3D3720151BBA73F600E19B15 /* dermal_fillers.png */,
+				3D3720161BBA73F600E19B15 /* invisible_braces.png */,
+				3D3720171BBA73F600E19B15 /* porcelain_veneers.png */,
+				3D3720181BBA73F600E19B15 /* teeth_whitening.png */,
+				3D3720191BBA73F600E19B15 /* white_fillings.png */,
+			);
+			name = "Cosmetic Dentistry";
+			sourceTree = "<group>";
+		};
+		3D37200C1BBA6E5700E19B15 /* Replacing Teeth */ = {
+			isa = PBXGroup;
+			children = (
+				3D37201F1BBA75C200E19B15 /* Bridges.png */,
+				3D3720201BBA75C200E19B15 /* crowns.png */,
+				3D3720211BBA75C200E19B15 /* dental_implants.png */,
+				3D3720221BBA75C200E19B15 /* Dentures.png */,
+				3D3720231BBA75C200E19B15 /* inlays_and_onlays.png */,
+			);
+			name = "Replacing Teeth";
+			sourceTree = "<group>";
+		};
+		3D38740F1BA862E500646984 = {
+			isa = PBXGroup;
+			children = (
+				3D518AA71CBAD43100C1EAF4 /* Main View Images */,
+				3DBEDE501CA8FF68009CC396 /* MailViewController.h */,
+				3DBEDE511CA8FF68009CC396 /* MailViewController.m */,
+				3D75A0521BAC73740075004B /* ContactUsViewController.h */,
+				3D75A0531BAC73740075004B /* ContactUsViewController.m */,
+				3DBEDE521CA8FF68009CC396 /* MailViewController.xib */,
+				3D9B94BD1C71FD4100615A32 /* OffersViewController.h */,
+				3D9B94BE1C71FD4100615A32 /* OffersViewController.m */,
+				3D9B94BF1C71FD4100615A32 /* OffersViewController.xib */,
+				3DF313051C1BF55E00BC6219 /* AmberContentViewController.h */,
+				3DF313061C1BF55E00BC6219 /* AmberContentViewController.m */,
+				3DF313071C1BF55E00BC6219 /* AmberContentViewController.xib */,
+				3DF313001C1BF54400BC6219 /* GreenContentViewController.h */,
+				3DF313011C1BF54400BC6219 /* GreenContentViewController.m */,
+				3DF313021C1BF54400BC6219 /* GreenContentViewController.xib */,
+				3DF312FB1C1BF52F00BC6219 /* RedContentViewController.h */,
+				3DF312FC1C1BF52F00BC6219 /* RedContentViewController.m */,
+				3DF312FD1C1BF52F00BC6219 /* RedContentViewController.xib */,
+				3DF312ED1C0C34CD00BC6219 /* launch_windsor_logo.png */,
+				3DF312EF1C0D4E1200BC6219 /* hulme_img.png */,
+				3DF312F01C0D4E1200BC6219 /* salford_img.png */,
+				3DF312EB1C0C339B00BC6219 /* windsor_dental_logo_white.png */,
+				3DF312D61C0B406800BC6219 /* windsor_logo_small.png */,
+				3D402F8F1BD7987400048D99 /* error@2x.png */,
+				3D402F8C1BD6D70E00048D99 /* TextFieldValidator.h */,
+				3D402F8D1BD6D70E00048D99 /* TextFieldValidator.m */,
+				3D402F871BD509DD00048D99 /* note_bak.png */,
+				3DB897BC1BCBD1EF008C3390 /* PatientInstructionsViewController.h */,
+				3DB897BD1BCBD1EF008C3390 /* PatientInstructionsViewController.m */,
+				3DB897BE1BCBD1EF008C3390 /* PatientInstructionsViewController.xib */,
+				3DD2F91A1BC25D590083827A /* CodeVerificationViewController.h */,
+				3DD2F91B1BC25D590083827A /* CodeVerificationViewController.m */,
+				3DD2F91C1BC25D590083827A /* CodeVerificationViewController.xib */,
+				3DD2F8E71BC1750A0083827A /* Replacing Teeth */,
+				3DD2F8E61BC174DA0083827A /* Cosmetic Dentistry */,
+				3DD2F8C91BC157130083827A /* Oral Healthcare */,
+				3DD2F8C81BC1560C0083827A /* General Dentistry */,
+				3D08CEBA1BC043B900FDCD95 /* dermal_fillers_3.png */,
+				3D3720331BBA764E00E19B15 /* ReplacingTeethViewController.h */,
+				3D3720341BBA764E00E19B15 /* ReplacingTeethViewController.m */,
+				3D3720351BBA764E00E19B15 /* ReplacingTeethViewController.xib */,
+				3D37202E1BBA763800E19B15 /* CosmeticDentistryViewController.h */,
+				3D37202F1BBA763800E19B15 /* CosmeticDentistryViewController.m */,
+				3D3720301BBA763800E19B15 /* CosmeticDentistryViewController.xib */,
+				3D3720291BBA760100E19B15 /* GeneralDentistryViewController.h */,
+				3D37202A1BBA760100E19B15 /* GeneralDentistryViewController.m */,
+				3D37202B1BBA760100E19B15 /* GeneralDentistryViewController.xib */,
+				3D3720041BB9AD4900E19B15 /* TreatmentsTableViewCell.h */,
+				3D3720051BB9AD4900E19B15 /* TreatmentsTableViewCell.m */,
+				3D3720061BB9AD4900E19B15 /* TreatmentsTableViewCell.xib */,
+				3D371FFF1BB998FD00E19B15 /* OralHealthCareViewController.h */,
+				3D3720001BB998FD00E19B15 /* OralHealthCareViewController.m */,
+				3D3720011BB998FD00E19B15 /* OralHealthCareViewController.xib */,
+				3D371FED1BB93A5A00E19B15 /* hulme_logo_2.png */,
+				3DA033A01BB1489200C29E3D /* TreatmentsViewController.h */,
+				3D371FEB1BB9348200E19B15 /* salford_logo_2.png */,
+				3DA033A11BB1489200C29E3D /* TreatmentsViewController.m */,
+				3DA0339D1BB127D400C29E3D /* MakeAppointmentViewController.h */,
+				3DA0339E1BB127D400C29E3D /* MakeAppointmentViewController.m */,
+				3D833A0B1BAFDCBB0085EBB6 /* trabs_bk.png */,
+				3D833A071BAFDB970085EBB6 /* call_icon.png */,
+				3D8339FF1BAFD12B0085EBB6 /* hulme_logo.png */,
+				3D833A001BAFD12B0085EBB6 /* salford_logo.png */,
+				3D8339FD1BAFCED60085EBB6 /* Footer.png */,
+				3D75A05F1BAD8C5B0075004B /* DentalHealthViewController.h */,
+				3D75A0601BAD8C5B0075004B /* DentalHealthViewController.m */,
+				3D75A05A1BAD778A0075004B /* HulmeViewController.h */,
+				3D75A05B1BAD778A0075004B /* HulmeViewController.m */,
+				3D75A05C1BAD778A0075004B /* HulmeViewController.xib */,
+				3D75A0551BAD77790075004B /* SalfordViewController.h */,
+				3D75A0561BAD77790075004B /* SalfordViewController.m */,
+				3D75A0571BAD77790075004B /* SalfordViewController.xib */,
+				3D3874B61BAC382B00646984 /* CameraViewController.h */,
+				3D3874B71BAC382B00646984 /* CameraViewController.m */,
+				3D3874B81BAC382B00646984 /* CameraViewController.xib */,
+				3D3874B31BAC379500646984 /* Image_Details.h */,
+				3D3874B41BAC379500646984 /* Image_Details.m */,
+				3D3874AE1BAC02AA00646984 /* ImageTakingViewController.h */,
+				3D3874AF1BAC02AA00646984 /* ImageTakingViewController.m */,
+				3D3874B01BAC02AA00646984 /* ImageTakingViewController.xib */,
+				3D3874A81BABFF6500646984 /* GCPlaceholderTextView.h */,
+				3D3874A91BABFF6500646984 /* GCPlaceholderTextView.m */,
+				3D3874A51BABFD2200646984 /* E-ConsultViewController.h */,
+				3D3874A61BABFD2200646984 /* E-ConsultViewController.m */,
+				3D3874411BA864CB00646984 /* images */,
+				3D38741A1BA862E500646984 /* WT_WindsorDental */,
+				3D3874341BA862E500646984 /* WT_WindsorDentalTests */,
+				3D3874191BA862E500646984 /* Products */,
+				5ECEEB4D9AEC2393E0FD54C7 /* Pods */,
+				73DD270765B6A9F1A2A06EC4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3D3874191BA862E500646984 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D3874181BA862E500646984 /* Windsor Dental.app */,
+				3D3874311BA862E500646984 /* WT_WindsorDentalTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D38741A1BA862E500646984 /* WT_WindsorDental */ = {
+			isa = PBXGroup;
+			children = (
+				3D38741F1BA862E500646984 /* AppDelegate.h */,
+				3D3874201BA862E500646984 /* AppDelegate.m */,
+				3D3874221BA862E500646984 /* ViewController.h */,
+				3D3874231BA862E500646984 /* ViewController.m */,
+				3D3874251BA862E500646984 /* Main.storyboard */,
+				3D3874281BA862E500646984 /* Images.xcassets */,
+				3D38742A1BA862E500646984 /* LaunchScreen.xib */,
+				3D38741B1BA862E500646984 /* Supporting Files */,
+			);
+			path = WT_WindsorDental;
+			sourceTree = "<group>";
+		};
+		3D38741B1BA862E500646984 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D38741C1BA862E500646984 /* Info.plist */,
+				3D38741D1BA862E500646984 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D3874341BA862E500646984 /* WT_WindsorDentalTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D3874371BA862E500646984 /* WT_WindsorDentalTests.m */,
+				3D3874351BA862E500646984 /* Supporting Files */,
+			);
+			path = WT_WindsorDentalTests;
+			sourceTree = "<group>";
+		};
+		3D3874351BA862E500646984 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D3874361BA862E500646984 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D3874411BA864CB00646984 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				3DF312F71C0D77BB00BC6219 /* hulme_logo_img.png */,
+				3DF312F81C0D77BB00BC6219 /* salford_logo_img.png */,
+				3D37200C1BBA6E5700E19B15 /* Replacing Teeth */,
+				3D37200B1BBA6E3F00E19B15 /* Cosmetic Dentistry */,
+				3D37200A1BBA6E2300E19B15 /* General Dentistry */,
+				3D371FEF1BB987EB00E19B15 /* Oral Healthcare */,
+				3D8339F71BAF28A50085EBB6 /* Hulme.png */,
+				3D8339F81BAF28A50085EBB6 /* Salford.png */,
+				3D3874BD1BAC38E700646984 /* camera3.png */,
+				3D3874BB1BAC38C300646984 /* canvas2.png */,
+				3D3874AB1BAC019E00646984 /* Image_Taking */,
+				3D38749A1BABED2900646984 /* Treatments */,
+				3D3874651BA9811400646984 /* tabbar */,
+				3D3874421BA864D800646984 /* Main Screen */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		3D3874421BA864D800646984 /* Main Screen */ = {
+			isa = PBXGroup;
+			children = (
+				3D0C6E401CC3955F00F3C858 /* windsor_dental_logo.png */,
+				3D38744C1BA895AF00646984 /* main_bk.png */,
+			);
+			name = "Main Screen";
+			sourceTree = "<group>";
+		};
+		3D3874651BA9811400646984 /* tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				3D91A30C1C2DAC3B0022F90D /* tab_bak.png */,
+				3D3874981BA9B56C00646984 /* ind_img3.png */,
+				3D3874921BA9A39400646984 /* econsult_sel.png */,
+				3D3874931BA9A39400646984 /* econsult_unsel.png */,
+				3D38748E1BA99D7700646984 /* gift_sel.png */,
+				3D38748F1BA99D7700646984 /* gift_unsel.png */,
+				3D3874841BA99AF300646984 /* env_sel.png */,
+				3D3874851BA99AF300646984 /* env_unsel.png */,
+				3D3874861BA99AF300646984 /* teeth_unsel.png */,
+				3D3874871BA99AF300646984 /* tooth_sel.png */,
+				3D3874661BA9816800646984 /* cal_sel.png */,
+				3D3874671BA9816800646984 /* cal_unsel.png */,
+				3D38746E1BA9816800646984 /* smile_sel.png */,
+				3D38746F1BA9816800646984 /* smile_unsel.png */,
+			);
+			name = tabbar;
+			sourceTree = "<group>";
+		};
+		3D38749A1BABED2900646984 /* Treatments */ = {
+			isa = PBXGroup;
+			children = (
+				3D38749B1BABEDE500646984 /* T1.png */,
+				3D3874A31BABEEBD00646984 /* rec.png */,
+				3D38749C1BABEDE500646984 /* T2.png */,
+				3D38749D1BABEDE500646984 /* T3.png */,
+				3D38749E1BABEDE500646984 /* T4.png */,
+			);
+			name = Treatments;
+			sourceTree = "<group>";
+		};
+		3D3874AB1BAC019E00646984 /* Image_Taking */ = {
+			isa = PBXGroup;
+			children = (
+				3D3874AC1BAC01BF00646984 /* cam_btn_bg.png */,
+			);
+			name = Image_Taking;
+			sourceTree = "<group>";
+		};
+		3D518AA71CBAD43100C1EAF4 /* Main View Images */ = {
+			isa = PBXGroup;
+			children = (
+				3D3748121CD0E0F10031EF83 /* dental_health_icon_3.png */,
+				3D518AB81CBCDCB300C1EAF4 /* contact_icon_2.png */,
+				3D518AB91CBCDCB300C1EAF4 /* dental_health_icon_2.png */,
+				3D518AB51CBAE44F00C1EAF4 /* treatments_icon_2.png */,
+				3D518AA81CBAD48D00C1EAF4 /* appt_icon_2.png */,
+				3D518AAB1CBAD48D00C1EAF4 /* econsult_icon_2.png */,
+				3D518AAC1CBAD48D00C1EAF4 /* offers_icon_2.png */,
+				3D518AA51CBAA79A00C1EAF4 /* book_appt_2.png */,
+			);
+			name = "Main View Images";
+			sourceTree = "<group>";
+		};
+		3DD2F8C81BC1560C0083827A /* General Dentistry */ = {
+			isa = PBXGroup;
+			children = (
+				3DD2F8C31BC154B00083827A /* RootCanalViewController.h */,
+				3DD2F8C41BC154B00083827A /* RootCanalViewController.m */,
+				3DD2F8C51BC154B00083827A /* RootCanalViewController.xib */,
+				3DD2F8BE1BC153F40083827A /* EmergencyDentalCareViewController.h */,
+				3DD2F8BF1BC153F40083827A /* EmergencyDentalCareViewController.m */,
+				3DD2F8C01BC153F40083827A /* EmergencyDentalCareViewController.xib */,
+				3DD2F8B91BC14DE20083827A /* JawProblemsViewController.h */,
+				3DD2F8BA1BC14DE20083827A /* JawProblemsViewController.m */,
+				3DD2F8BB1BC14DE20083827A /* JawProblemsViewController.xib */,
+				3D3720381BBAA11100E19B15 /* ToothExtractionsViewController.h */,
+				3D3720391BBAA11100E19B15 /* ToothExtractionsViewController.m */,
+				3D37203A1BBAA11100E19B15 /* ToothExtractionsViewController.xib */,
+			);
+			name = "General Dentistry";
+			sourceTree = "<group>";
+		};
+		3DD2F8C91BC157130083827A /* Oral Healthcare */ = {
+			isa = PBXGroup;
+			children = (
+				3DD2F8CA1BC157A40083827A /* DentalHygieneViewController.h */,
+				3DD2F8E11BC15C650083827A /* PregnancyDentalCareViewController.h */,
+				3DD2F8E21BC15C650083827A /* PregnancyDentalCareViewController.m */,
+				3DD2F8E31BC15C650083827A /* PregnancyDentalCareViewController.xib */,
+				3DD2F8CB1BC157A40083827A /* DentalHygieneViewController.m */,
+				3DD2F8CC1BC157A40083827A /* DentalHygieneViewController.xib */,
+				3DD2F8CF1BC15BB40083827A /* ChidrenTeethViewController.h */,
+				3DD2F8D01BC15BB40083827A /* ChidrenTeethViewController.m */,
+				3DD2F8D11BC15BB40083827A /* ChidrenTeethViewController.xib */,
+				3DD2F8D41BC15BD30083827A /* PreventingOralCancerViewController.h */,
+				3DD2F8D51BC15BD30083827A /* PreventingOralCancerViewController.m */,
+				3DD2F8D61BC15BD30083827A /* PreventingOralCancerViewController.xib */,
+				3DD2F8D91BC15BE90083827A /* SensitiveTeethViewController.h */,
+				3DD2F8DA1BC15BE90083827A /* SensitiveTeethViewController.m */,
+				3DD2F8DB1BC15BE90083827A /* SensitiveTeethViewController.xib */,
+			);
+			name = "Oral Healthcare";
+			sourceTree = "<group>";
+		};
+		3DD2F8E61BC174DA0083827A /* Cosmetic Dentistry */ = {
+			isa = PBXGroup;
+			children = (
+				3DD2F8FC1BC176290083827A /* InvisibleBracesViewController.h */,
+				3DD2F8FD1BC176290083827A /* InvisibleBracesViewController.m */,
+				3DD2F8FE1BC176290083827A /* InvisibleBracesViewController.xib */,
+				3DD2F8E81BC175770083827A /* DermalFillersViewController.h */,
+				3DD2F8E91BC175770083827A /* DermalFillersViewController.m */,
+				3DD2F8EA1BC175770083827A /* DermalFillersViewController.xib */,
+				3DD2F8ED1BC175A70083827A /* TeethWhiteningViewController.h */,
+				3DD2F8EE1BC175A70083827A /* TeethWhiteningViewController.m */,
+				3DD2F8EF1BC175A70083827A /* TeethWhiteningViewController.xib */,
+				3DD2F8F21BC175DC0083827A /* PorcelainVeneersViewController.h */,
+				3DD2F8F31BC175DC0083827A /* PorcelainVeneersViewController.m */,
+				3DD2F8F41BC175DC0083827A /* PorcelainVeneersViewController.xib */,
+				3DD2F8F71BC176080083827A /* WhiteFillingsViewController.h */,
+				3DD2F8F81BC176080083827A /* WhiteFillingsViewController.m */,
+				3DD2F8F91BC176080083827A /* WhiteFillingsViewController.xib */,
+			);
+			name = "Cosmetic Dentistry";
+			sourceTree = "<group>";
+		};
+		3DD2F8E71BC1750A0083827A /* Replacing Teeth */ = {
+			isa = PBXGroup;
+			children = (
+				3DD2F9011BC195A90083827A /* DentalImplantsViewController.h */,
+				3DD2F9021BC195A90083827A /* DentalImplantsViewController.m */,
+				3DD2F9031BC195A90083827A /* DentalImplantsViewController.xib */,
+				3DD2F9061BC197BC0083827A /* DenturesViewController.h */,
+				3DD2F9071BC197BC0083827A /* DenturesViewController.m */,
+				3DD2F9081BC197BC0083827A /* DenturesViewController.xib */,
+				3DD2F90B1BC197D50083827A /* BridgesViewController.h */,
+				3DD2F90C1BC197D50083827A /* BridgesViewController.m */,
+				3DD2F90D1BC197D50083827A /* BridgesViewController.xib */,
+				3DD2F9101BC197E50083827A /* CrownsViewController.h */,
+				3DD2F9111BC197E50083827A /* CrownsViewController.m */,
+				3DD2F9121BC197E50083827A /* CrownsViewController.xib */,
+				3DD2F9151BC197FE0083827A /* InlaysOnlaysViewController.h */,
+				3DD2F9161BC197FE0083827A /* InlaysOnlaysViewController.m */,
+				3DD2F9171BC197FE0083827A /* InlaysOnlaysViewController.xib */,
+			);
+			name = "Replacing Teeth";
+			sourceTree = "<group>";
+		};
+		5ECEEB4D9AEC2393E0FD54C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				449ECC9E229F097E1D9F7BA9 /* Pods.debug.xcconfig */,
+				A0B2DAA6973152BE71AC3CEA /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		73DD270765B6A9F1A2A06EC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				006FDD233DC1A05DFA20DABD /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D3874171BA862E500646984 /* WT_WindsorDental */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D38743B1BA862E500646984 /* Build configuration list for PBXNativeTarget "WT_WindsorDental" */;
+			buildPhases = (
+				5D875085FD2B5CAAA2E47C90 /* Check Pods Manifest.lock */,
+				3D3874141BA862E500646984 /* Sources */,
+				3D3874151BA862E500646984 /* Frameworks */,
+				3D3874161BA862E500646984 /* Resources */,
+				77E94E3FE836D0B95B7AC4E5 /* Embed Pods Frameworks */,
+				368EC5D7BDE7026E7505165E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WT_WindsorDental;
+			productName = WT_WindsorDental;
+			productReference = 3D3874181BA862E500646984 /* Windsor Dental.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D3874301BA862E500646984 /* WT_WindsorDentalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D38743E1BA862E500646984 /* Build configuration list for PBXNativeTarget "WT_WindsorDentalTests" */;
+			buildPhases = (
+				3D38742D1BA862E500646984 /* Sources */,
+				3D38742E1BA862E500646984 /* Frameworks */,
+				3D38742F1BA862E500646984 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D3874331BA862E500646984 /* PBXTargetDependency */,
+			);
+			name = WT_WindsorDentalTests;
+			productName = WT_WindsorDentalTests;
+			productReference = 3D3874311BA862E500646984 /* WT_WindsorDentalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D3874101BA862E500646984 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Welltime;
+				TargetAttributes = {
+					3D3874171BA862E500646984 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = M7FD65CYM8;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					3D3874301BA862E500646984 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = NK4K2T728B;
+						TestTargetID = 3D3874171BA862E500646984;
+					};
+				};
+			};
+			buildConfigurationList = 3D3874131BA862E500646984 /* Build configuration list for PBXProject "WT_WindsorDental" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D38740F1BA862E500646984;
+			productRefGroup = 3D3874191BA862E500646984 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D3874171BA862E500646984 /* WT_WindsorDental */,
+				3D3874301BA862E500646984 /* WT_WindsorDentalTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D3874161BA862E500646984 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D3720251BBA75C200E19B15 /* crowns.png in Resources */,
+				3D08CEB91BC039A900FDCD95 /* dermal_fillers2png in Resources */,
+				3D518AB11CBAD48D00C1EAF4 /* econsult_icon_2.png in Resources */,
+				3D8339FE1BAFCED60085EBB6 /* Footer.png in Resources */,
+				3DD2F8BD1BC14DE20083827A /* JawProblemsViewController.xib in Resources */,
+				3DD2F8C71BC154B00083827A /* RootCanalViewController.xib in Resources */,
+				3D371FEC1BB9348200E19B15 /* salford_logo_2.png in Resources */,
+				3DF312FA1C0D77BB00BC6219 /* salford_logo_img.png in Resources */,
+				3D518AA61CBAA79A00C1EAF4 /* book_appt_2.png in Resources */,
+				3D38749F1BABEDE500646984 /* T1.png in Resources */,
+				3D38744E1BA895AF00646984 /* main_bk.png in Resources */,
+				3DD2F9051BC195A90083827A /* DentalImplantsViewController.xib in Resources */,
+				3DF312F11C0D4E1200BC6219 /* hulme_img.png in Resources */,
+				3D3874B21BAC02AA00646984 /* ImageTakingViewController.xib in Resources */,
+				3D371FF91BB9880D00E19B15 /* sensitive_teeth_img.png in Resources */,
+				3D3874731BA9816800646984 /* cal_unsel.png in Resources */,
+				3D371FF71BB9880D00E19B15 /* pregnancy_dental_care.png in Resources */,
+				3D3874721BA9816800646984 /* cal_sel.png in Resources */,
+				3DD2F8E51BC15C650083827A /* PregnancyDentalCareViewController.xib in Resources */,
+				3D833A021BAFD12B0085EBB6 /* salford_logo.png in Resources */,
+				3D75A05E1BAD778A0075004B /* HulmeViewController.xib in Resources */,
+				3DD2F8D81BC15BD30083827A /* PreventingOralCancerViewController.xib in Resources */,
+				3D518AB21CBAD48D00C1EAF4 /* offers_icon_2.png in Resources */,
+				3D3874271BA862E500646984 /* Main.storyboard in Resources */,
+				3DF312EE1C0C34CD00BC6219 /* launch_windsor_logo.png in Resources */,
+				3D3874941BA9A39400646984 /* econsult_sel.png in Resources */,
+				3DD2F8C21BC153F40083827A /* EmergencyDentalCareViewController.xib in Resources */,
+				3DF312EC1C0C339B00BC6219 /* windsor_dental_logo_white.png in Resources */,
+				3D37201D1BBA73F600E19B15 /* teeth_whitening.png in Resources */,
+				3DF313041C1BF54400BC6219 /* GreenContentViewController.xib in Resources */,
+				3D3720111BBA6E7400E19B15 /* emergency_dental_care.png in Resources */,
+				3D833A011BAFD12B0085EBB6 /* hulme_logo.png in Resources */,
+				3D3874BE1BAC38E700646984 /* camera3.png in Resources */,
+				3D3874BC1BAC38C300646984 /* canvas2.png in Resources */,
+				3D402F881BD509DD00048D99 /* note_bak.png in Resources */,
+				3DF312FF1C1BF52F00BC6219 /* RedContentViewController.xib in Resources */,
+				3D833A081BAFDB970085EBB6 /* call_icon.png in Resources */,
+				3DD2F8DD1BC15BE90083827A /* SensitiveTeethViewController.xib in Resources */,
+				3D37202D1BBA760100E19B15 /* GeneralDentistryViewController.xib in Resources */,
+				3D3874951BA9A39400646984 /* econsult_unsel.png in Resources */,
+				3D3720141BBA6E7400E19B15 /* tooth_extractions.png in Resources */,
+				3DD2F91E1BC25D590083827A /* CodeVerificationViewController.xib in Resources */,
+				3D38748D1BA99AF300646984 /* tooth_sel.png in Resources */,
+				3D3874911BA99D7700646984 /* gift_unsel.png in Resources */,
+				3D37201E1BBA73F600E19B15 /* white_fillings.png in Resources */,
+				3D38742C1BA862E500646984 /* LaunchScreen.xib in Resources */,
+				3D3874291BA862E500646984 /* Images.xcassets in Resources */,
+				3D3720031BB998FD00E19B15 /* OralHealthCareViewController.xib in Resources */,
+				3DD2F90F1BC197D50083827A /* BridgesViewController.xib in Resources */,
+				3DBEDE541CA8FF68009CC396 /* MailViewController.xib in Resources */,
+				3D3874A21BABEDE500646984 /* T4.png in Resources */,
+				3D37201C1BBA73F600E19B15 /* porcelain_veneers.png in Resources */,
+				3D75A0591BAD77790075004B /* SalfordViewController.xib in Resources */,
+				3DF312D71C0B406800BC6219 /* windsor_logo_small.png in Resources */,
+				3D371FF81BB9880D00E19B15 /* preventing_oral_cancer_img.png in Resources */,
+				3D518AB71CBAE44F00C1EAF4 /* treatments_icon_2.png in Resources */,
+				3DF312F91C0D77BB00BC6219 /* hulme_logo_img.png in Resources */,
+				3D38747A1BA9816800646984 /* smile_sel.png in Resources */,
+				3D38748C1BA99AF300646984 /* teeth_unsel.png in Resources */,
+				3D3874BA1BAC382B00646984 /* CameraViewController.xib in Resources */,
+				3D402F901BD7987400048D99 /* error@2x.png in Resources */,
+				3D9B94C11C71FD4100615A32 /* OffersViewController.xib in Resources */,
+				3D3748131CD0E0F10031EF83 /* dental_health_icon_3.png in Resources */,
+				3D38748B1BA99AF300646984 /* env_unsel.png in Resources */,
+				3D518AAE1CBAD48D00C1EAF4 /* appt_icon_2.png in Resources */,
+				3DD2F90A1BC197BC0083827A /* DenturesViewController.xib in Resources */,
+				3D3874901BA99D7700646984 /* gift_sel.png in Resources */,
+				3D3720371BBA764E00E19B15 /* ReplacingTeethViewController.xib in Resources */,
+				3DB897C01BCBD1EF008C3390 /* PatientInstructionsViewController.xib in Resources */,
+				3D37201A1BBA73F600E19B15 /* dermal_fillers.png in Resources */,
+				3D3720081BB9AD4900E19B15 /* TreatmentsTableViewCell.xib in Resources */,
+				3DD2F8EC1BC175770083827A /* DermalFillersViewController.xib in Resources */,
+				3D3874A01BABEDE500646984 /* T2.png in Resources */,
+				3D38748A1BA99AF300646984 /* env_sel.png in Resources */,
+				3D08CEBB1BC043B900FDCD95 /* dermal_fillers_3.png in Resources */,
+				3D3874991BA9B56C00646984 /* ind_img3.png in Resources */,
+				3D8339FA1BAF28A50085EBB6 /* Salford.png in Resources */,
+				3D518ABB1CBCDCB300C1EAF4 /* dental_health_icon_2.png in Resources */,
+				3D371FF51BB9880D00E19B15 /* children_teeth_img.png in Resources */,
+				3D371FF61BB9880D00E19B15 /* dental_hygiene.png in Resources */,
+				3D3720121BBA6E7400E19B15 /* jaw_pain.png in Resources */,
+				3DD2F8F61BC175DC0083827A /* PorcelainVeneersViewController.xib in Resources */,
+				3D37201B1BBA73F600E19B15 /* invisible_braces.png in Resources */,
+				3D91A30D1C2DAC3B0022F90D /* tab_bak.png in Resources */,
+				3D3874A11BABEDE500646984 /* T3.png in Resources */,
+				3D3720321BBA763800E19B15 /* CosmeticDentistryViewController.xib in Resources */,
+				3D37203C1BBAA11100E19B15 /* ToothExtractionsViewController.xib in Resources */,
+				3D0C6E411CC3955F00F3C858 /* windsor_dental_logo.png in Resources */,
+				3D833A0C1BAFDCBB0085EBB6 /* trabs_bk.png in Resources */,
+				3D518ABA1CBCDCB300C1EAF4 /* contact_icon_2.png in Resources */,
+				3D8339F91BAF28A50085EBB6 /* Hulme.png in Resources */,
+				3DD2F9001BC176290083827A /* InvisibleBracesViewController.xib in Resources */,
+				3DD2F8D31BC15BB40083827A /* ChidrenTeethViewController.xib in Resources */,
+				3D371FEE1BB93A5A00E19B15 /* hulme_logo_2.png in Resources */,
+				3D3874AD1BAC01BF00646984 /* cam_btn_bg.png in Resources */,
+				3DD2F8FB1BC176080083827A /* WhiteFillingsViewController.xib in Resources */,
+				3D3720261BBA75C200E19B15 /* dental_implants.png in Resources */,
+				3D38747B1BA9816800646984 /* smile_unsel.png in Resources */,
+				3DD2F8CE1BC157A40083827A /* DentalHygieneViewController.xib in Resources */,
+				3DD2F9191BC197FE0083827A /* InlaysOnlaysViewController.xib in Resources */,
+				3DD2F8F11BC175A70083827A /* TeethWhiteningViewController.xib in Resources */,
+				3D3720281BBA75C200E19B15 /* inlays_and_onlays.png in Resources */,
+				3D3720131BBA6E7400E19B15 /* root_canal_therapy.png in Resources */,
+				3DF312F21C0D4E1200BC6219 /* salford_img.png in Resources */,
+				3DD2F9141BC197E50083827A /* CrownsViewController.xib in Resources */,
+				3DF313091C1BF55E00BC6219 /* AmberContentViewController.xib in Resources */,
+				3D3720241BBA75C200E19B15 /* Bridges.png in Resources */,
+				3D3720271BBA75C200E19B15 /* Dentures.png in Resources */,
+				3D3874A41BABEEBD00646984 /* rec.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D38742F1BA862E500646984 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		368EC5D7BDE7026E7505165E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D875085FD2B5CAAA2E47C90 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		77E94E3FE836D0B95B7AC4E5 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D3874141BA862E500646984 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D37203B1BBAA11100E19B15 /* ToothExtractionsViewController.m in Sources */,
+				3D3874241BA862E500646984 /* ViewController.m in Sources */,
+				3D75A05D1BAD778A0075004B /* HulmeViewController.m in Sources */,
+				3D3874B91BAC382B00646984 /* CameraViewController.m in Sources */,
+				3D3874A71BABFD2200646984 /* E-ConsultViewController.m in Sources */,
+				3DD2F8FA1BC176080083827A /* WhiteFillingsViewController.m in Sources */,
+				3D75A0611BAD8C5B0075004B /* DentalHealthViewController.m in Sources */,
+				3DD2F9041BC195A90083827A /* DentalImplantsViewController.m in Sources */,
+				3DD2F91D1BC25D590083827A /* CodeVerificationViewController.m in Sources */,
+				3DD2F8F01BC175A70083827A /* TeethWhiteningViewController.m in Sources */,
+				3DD2F8C61BC154B00083827A /* RootCanalViewController.m in Sources */,
+				3DBEDE531CA8FF68009CC396 /* MailViewController.m in Sources */,
+				3D75A0541BAC73740075004B /* ContactUsViewController.m in Sources */,
+				3DD2F8DC1BC15BE90083827A /* SensitiveTeethViewController.m in Sources */,
+				3DA0339F1BB127D400C29E3D /* MakeAppointmentViewController.m in Sources */,
+				3D75A0581BAD77790075004B /* SalfordViewController.m in Sources */,
+				3DD2F9131BC197E50083827A /* CrownsViewController.m in Sources */,
+				3D402F8E1BD6D70E00048D99 /* TextFieldValidator.m in Sources */,
+				3D3720361BBA764E00E19B15 /* ReplacingTeethViewController.m in Sources */,
+				3DF313031C1BF54400BC6219 /* GreenContentViewController.m in Sources */,
+				3DD2F9181BC197FE0083827A /* InlaysOnlaysViewController.m in Sources */,
+				3DB897BF1BCBD1EF008C3390 /* PatientInstructionsViewController.m in Sources */,
+				3D3874AA1BABFF6500646984 /* GCPlaceholderTextView.m in Sources */,
+				3D9B94C01C71FD4100615A32 /* OffersViewController.m in Sources */,
+				3DD2F8BC1BC14DE20083827A /* JawProblemsViewController.m in Sources */,
+				3DD2F8D21BC15BB40083827A /* ChidrenTeethViewController.m in Sources */,
+				3D3720021BB998FD00E19B15 /* OralHealthCareViewController.m in Sources */,
+				3D3720311BBA763800E19B15 /* CosmeticDentistryViewController.m in Sources */,
+				3DD2F9091BC197BC0083827A /* DenturesViewController.m in Sources */,
+				3D37202C1BBA760100E19B15 /* GeneralDentistryViewController.m in Sources */,
+				3DD2F8D71BC15BD30083827A /* PreventingOralCancerViewController.m in Sources */,
+				3D3874211BA862E500646984 /* AppDelegate.m in Sources */,
+				3D3874B51BAC379500646984 /* Image_Details.m in Sources */,
+				3DA033A21BB1489300C29E3D /* TreatmentsViewController.m in Sources */,
+				3D3874B11BAC02AA00646984 /* ImageTakingViewController.m in Sources */,
+				3DF312FE1C1BF52F00BC6219 /* RedContentViewController.m in Sources */,
+				3DD2F90E1BC197D50083827A /* BridgesViewController.m in Sources */,
+				3DF313081C1BF55E00BC6219 /* AmberContentViewController.m in Sources */,
+				3DD2F8CD1BC157A40083827A /* DentalHygieneViewController.m in Sources */,
+				3D3720071BB9AD4900E19B15 /* TreatmentsTableViewCell.m in Sources */,
+				3DD2F8E41BC15C650083827A /* PregnancyDentalCareViewController.m in Sources */,
+				3DD2F8EB1BC175770083827A /* DermalFillersViewController.m in Sources */,
+				3DD2F8FF1BC176290083827A /* InvisibleBracesViewController.m in Sources */,
+				3D38741E1BA862E500646984 /* main.m in Sources */,
+				3DD2F8F51BC175DC0083827A /* PorcelainVeneersViewController.m in Sources */,
+				3DD2F8C11BC153F40083827A /* EmergencyDentalCareViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D38742D1BA862E500646984 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D3874381BA862E500646984 /* WT_WindsorDentalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D3874331BA862E500646984 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D3874171BA862E500646984 /* WT_WindsorDental */;
+			targetProxy = 3D3874321BA862E500646984 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D3874251BA862E500646984 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D3874261BA862E500646984 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D38742A1BA862E500646984 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D38742B1BA862E500646984 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D3874391BA862E500646984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Mubbasher Khanzada (2LKR89RG7C)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mubbasher Khanzada (2LKR89RG7C)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "Windsor Dental";
+				PROVISIONING_PROFILE = "c0e14fb8-8fe3-4fb9-b69d-c689ac120798";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3D38743A1BA862E500646984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Mubbasher Khanzada (2LKR89RG7C)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mubbasher Khanzada (2LKR89RG7C)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "Windsor Dental";
+				PROVISIONING_PROFILE = "c0e14fb8-8fe3-4fb9-b69d-c689ac120798";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D38743C1BA862E500646984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 449ECC9E229F097E1D9F7BA9 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = WT_WindsorDental/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		3D38743D1BA862E500646984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0B2DAA6973152BE71AC3CEA /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = WT_WindsorDental/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		3D38743F1BA862E500646984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WT_WindsorDentalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WT_WindsorDental.app/WT_WindsorDental";
+			};
+			name = Debug;
+		};
+		3D3874401BA862E500646984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WT_WindsorDentalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WT_WindsorDental.app/WT_WindsorDental";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D3874131BA862E500646984 /* Build configuration list for PBXProject "WT_WindsorDental" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D3874391BA862E500646984 /* Debug */,
+				3D38743A1BA862E500646984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D38743B1BA862E500646984 /* Build configuration list for PBXNativeTarget "WT_WindsorDental" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D38743C1BA862E500646984 /* Debug */,
+				3D38743D1BA862E500646984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D38743E1BA862E500646984 /* Build configuration list for PBXNativeTarget "WT_WindsorDentalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D38743F1BA862E500646984 /* Debug */,
+				3D3874401BA862E500646984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D3874101BA862E500646984 /* Project object */;
+}

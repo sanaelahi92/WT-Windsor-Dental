@@ -1,0 +1,718 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E6EFB34634463A3333A71889CE3EC54 /* PAPasscodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69EF87B6F36F555727AEC3C4B4928668 /* PAPasscodeViewController.m */; };
+		38A0EDC640F6A9568E969D6DC99ABAE2 /* PAPasscode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F3114CC952B1025D360759E899BF74B /* PAPasscode-dummy.m */; };
+		438283F597CEDE0EFA4BBF990C14FE69 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */; };
+		440AE5108FD908C9EF6D0319D40BE1F2 /* IHKeyboardAvoiding-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90EF308E753A71A65206B9F2820117A9 /* IHKeyboardAvoiding-dummy.m */; };
+		465F6A3975AACD47A2665EB4813FE2C3 /* RDVKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12BD3768445E01D912478C7B32B94ABE /* RDVKeyboardAvoidingScrollView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		47A6DD5D186630BBB30500D310303F51 /* RDVKeyboardAvoidingScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D421C179501A7769C2DAB12B9FE4B71 /* RDVKeyboardAvoidingScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		580CEB12422345B71DC764D1F3FE5587 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE437620300D81EED04DF8C0301AF9D9 /* Foundation.framework */; };
+		836E797B5AF1FD21CC5D59E4DA8B6275 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AE7FD0E16F3FACCFE19068F1E872D9F /* CoreGraphics.framework */; };
+		9881D795D34BD2A1E41C61E7FC10B7D0 /* IHKeyboardAvoiding.h in Headers */ = {isa = PBXBuildFile; fileRef = 86D72C6B7A40B3BF892793FECBB67749 /* IHKeyboardAvoiding.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A90E9C274539A4B956BF91D54F5EA763 /* IHKeyboardAvoiding.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DDEFFDF19AA2D5A22636D561B8A030 /* IHKeyboardAvoiding.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AEE190665BC2A17083031A7D203290E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE437620300D81EED04DF8C0301AF9D9 /* Foundation.framework */; };
+		B350BAEC9E4F429C633F448D4792CED5 /* PAPasscodeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B8A348D1142E68E4AAC09B7896E5AE2 /* PAPasscodeViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B426AA276E2A7661F6E3CAB7BD782735 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED04AE2201316F6590E7AD9952706C7B /* UIKit.framework */; };
+		BCA3C1F4AD4D0C262F5819BCC769D0BF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD25CA4A497622D5ABF4C433D79E4DE /* QuartzCore.framework */; };
+		C0EF33DF8F11AF77448826FC83DD8BB1 /* RDVKeyboardAvoiding-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E6FFFF7B3BE2964F6DE4E172EED834 /* RDVKeyboardAvoiding-dummy.m */; };
+		CFB99DDB2968AB233598018EFF63ACD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE437620300D81EED04DF8C0301AF9D9 /* Foundation.framework */; };
+		D5EF2F563A7F0B29F7D5E3B98FCB7202 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE437620300D81EED04DF8C0301AF9D9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2141194DADEBB3B44EB43799A03708A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B8581C08A6DBF57060F6785B1F87175;
+			remoteInfo = PAPasscode;
+		};
+		385401BE85C1F54D3A37BAF4D71D3969 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F685CCB5CF8550779D0CBE373F9A6B0E;
+			remoteInfo = RDVKeyboardAvoiding;
+		};
+		FA1A26F44A9243FC3C9AD58A9BC0306A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 758BD33A54E94AFAEF82DF604E460408;
+			remoteInfo = IHKeyboardAvoiding;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DD25CA4A497622D5ABF4C433D79E4DE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		0F3114CC952B1025D360759E899BF74B /* PAPasscode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PAPasscode-dummy.m"; sourceTree = "<group>"; };
+		10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		12BD3768445E01D912478C7B32B94ABE /* RDVKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RDVKeyboardAvoidingScrollView.m; path = RDVKeyboardAvoiding/RDVKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		2590CAA559D3012965BD9335FD73013E /* libPAPasscode.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPAPasscode.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		28E6FFFF7B3BE2964F6DE4E172EED834 /* RDVKeyboardAvoiding-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RDVKeyboardAvoiding-dummy.m"; sourceTree = "<group>"; };
+		37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		404FDADB4C3F1B284AFF40BB9D2C8416 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AE7FD0E16F3FACCFE19068F1E872D9F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		4B3299BB4C1864CD99A629931C8AFAEF /* IHKeyboardAvoiding-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IHKeyboardAvoiding-prefix.pch"; sourceTree = "<group>"; };
+		4D421C179501A7769C2DAB12B9FE4B71 /* RDVKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RDVKeyboardAvoidingScrollView.h; path = RDVKeyboardAvoiding/RDVKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		52DDEFFDF19AA2D5A22636D561B8A030 /* IHKeyboardAvoiding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IHKeyboardAvoiding.m; path = Classes/IHKeyboardAvoiding.m; sourceTree = "<group>"; };
+		6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		69EF87B6F36F555727AEC3C4B4928668 /* PAPasscodeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PAPasscodeViewController.m; path = PAPasscode/PAPasscodeViewController.m; sourceTree = "<group>"; };
+		86D72C6B7A40B3BF892793FECBB67749 /* IHKeyboardAvoiding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IHKeyboardAvoiding.h; path = Classes/IHKeyboardAvoiding.h; sourceTree = "<group>"; };
+		8B8A348D1142E68E4AAC09B7896E5AE2 /* PAPasscodeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PAPasscodeViewController.h; path = PAPasscode/PAPasscodeViewController.h; sourceTree = "<group>"; };
+		90EF308E753A71A65206B9F2820117A9 /* IHKeyboardAvoiding-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IHKeyboardAvoiding-dummy.m"; sourceTree = "<group>"; };
+		95610F5B2B3D513A20D3CA4FC824AB94 /* RDVKeyboardAvoiding-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RDVKeyboardAvoiding-prefix.pch"; sourceTree = "<group>"; };
+		98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		A49C77B08E4D97FE307FDD1BC65D7CBB /* PAPasscode.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PAPasscode.xcconfig; sourceTree = "<group>"; };
+		AEBF97E61796E252F80D0501BAA16A5A /* libIHKeyboardAvoiding.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libIHKeyboardAvoiding.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B967758CC56E1201F73118A66185007A /* RDVKeyboardAvoiding.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RDVKeyboardAvoiding.xcconfig; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BD4450579415B0582AFF5D5B400C5619 /* libRDVKeyboardAvoiding.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRDVKeyboardAvoiding.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE437620300D81EED04DF8C0301AF9D9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E643735CFF7143EE47C0631A360AD442 /* PAPasscode-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PAPasscode-prefix.pch"; sourceTree = "<group>"; };
+		EA3CC8785A40EB32930E05FBE1133C2E /* IHKeyboardAvoiding.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IHKeyboardAvoiding.xcconfig; sourceTree = "<group>"; };
+		ED04AE2201316F6590E7AD9952706C7B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08977348748DEAB6A10C4650C4018406 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				580CEB12422345B71DC764D1F3FE5587 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D119748E53789B97F73517FF0B4CAA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFB99DDB2968AB233598018EFF63ACD8 /* Foundation.framework in Frameworks */,
+				BCA3C1F4AD4D0C262F5819BCC769D0BF /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C7AF86DF507D6013F285ED198598FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5EF2F563A7F0B29F7D5E3B98FCB7202 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E59BB97CFDD517F10C09D969CD9D9632 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				836E797B5AF1FD21CC5D59E4DA8B6275 /* CoreGraphics.framework in Frameworks */,
+				AEE190665BC2A17083031A7D203290E9 /* Foundation.framework in Frameworks */,
+				B426AA276E2A7661F6E3CAB7BD782735 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3D1D13E0C6553800746CB8FD61CF946 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9203A0FF197B8764CD853B6EE3A159E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		14F2F148E589B0E5998884B334A938B0 /* RDVKeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+				4D421C179501A7769C2DAB12B9FE4B71 /* RDVKeyboardAvoidingScrollView.h */,
+				12BD3768445E01D912478C7B32B94ABE /* RDVKeyboardAvoidingScrollView.m */,
+				26D6FCC340FFD3E15053A4921B9DC29E /* Support Files */,
+			);
+			path = RDVKeyboardAvoiding;
+			sourceTree = "<group>";
+		};
+		21AE6C722E73EFD93255C64F71E3BF19 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6CF890E458E9C498A47461FD24F79143 /* IHKeyboardAvoiding */,
+				F05CBF0FD1792E31173909064DDDF62D /* PAPasscode */,
+				14F2F148E589B0E5998884B334A938B0 /* RDVKeyboardAvoiding */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		26D6FCC340FFD3E15053A4921B9DC29E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B967758CC56E1201F73118A66185007A /* RDVKeyboardAvoiding.xcconfig */,
+				28E6FFFF7B3BE2964F6DE4E172EED834 /* RDVKeyboardAvoiding-dummy.m */,
+				95610F5B2B3D513A20D3CA4FC824AB94 /* RDVKeyboardAvoiding-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RDVKeyboardAvoiding";
+			sourceTree = "<group>";
+		};
+		6CF890E458E9C498A47461FD24F79143 /* IHKeyboardAvoiding */ = {
+			isa = PBXGroup;
+			children = (
+				86D72C6B7A40B3BF892793FECBB67749 /* IHKeyboardAvoiding.h */,
+				52DDEFFDF19AA2D5A22636D561B8A030 /* IHKeyboardAvoiding.m */,
+				89F06C229B718AFF33FB0825232C33E3 /* Support Files */,
+			);
+			path = IHKeyboardAvoiding;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				21AE6C722E73EFD93255C64F71E3BF19 /* Pods */,
+				AA6199FF2E1C5A5AF5138F6996DE2FCD /* Products */,
+				037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		89F06C229B718AFF33FB0825232C33E3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA3CC8785A40EB32930E05FBE1133C2E /* IHKeyboardAvoiding.xcconfig */,
+				90EF308E753A71A65206B9F2820117A9 /* IHKeyboardAvoiding-dummy.m */,
+				4B3299BB4C1864CD99A629931C8AFAEF /* IHKeyboardAvoiding-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/IHKeyboardAvoiding";
+			sourceTree = "<group>";
+		};
+		8B0048AA5B35CFD9E7920942F5FD1A03 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A49C77B08E4D97FE307FDD1BC65D7CBB /* PAPasscode.xcconfig */,
+				0F3114CC952B1025D360759E899BF74B /* PAPasscode-dummy.m */,
+				E643735CFF7143EE47C0631A360AD442 /* PAPasscode-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PAPasscode";
+			sourceTree = "<group>";
+		};
+		A9203A0FF197B8764CD853B6EE3A159E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4AE7FD0E16F3FACCFE19068F1E872D9F /* CoreGraphics.framework */,
+				CE437620300D81EED04DF8C0301AF9D9 /* Foundation.framework */,
+				0DD25CA4A497622D5ABF4C433D79E4DE /* QuartzCore.framework */,
+				ED04AE2201316F6590E7AD9952706C7B /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		AA6199FF2E1C5A5AF5138F6996DE2FCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEBF97E61796E252F80D0501BAA16A5A /* libIHKeyboardAvoiding.a */,
+				2590CAA559D3012965BD9335FD73013E /* libPAPasscode.a */,
+				404FDADB4C3F1B284AFF40BB9D2C8416 /* libPods.a */,
+				BD4450579415B0582AFF5D5B400C5619 /* libRDVKeyboardAvoiding.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3D1D13E0C6553800746CB8FD61CF946 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */,
+				10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */,
+				272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */,
+				6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */,
+				A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */,
+				4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */,
+				98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		F05CBF0FD1792E31173909064DDDF62D /* PAPasscode */ = {
+			isa = PBXGroup;
+			children = (
+				8B8A348D1142E68E4AAC09B7896E5AE2 /* PAPasscodeViewController.h */,
+				69EF87B6F36F555727AEC3C4B4928668 /* PAPasscodeViewController.m */,
+				8B0048AA5B35CFD9E7920942F5FD1A03 /* Support Files */,
+			);
+			path = PAPasscode;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2FA7DDA81019656A1C5B5E66F84C6A23 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B350BAEC9E4F429C633F448D4792CED5 /* PAPasscodeViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32E005AD09116135D8014918796A0AD5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47A6DD5D186630BBB30500D310303F51 /* RDVKeyboardAvoidingScrollView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A4DD15206EF8C9E2921F43133499A9D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9881D795D34BD2A1E41C61E7FC10B7D0 /* IHKeyboardAvoiding.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		477CB4715FC5CB41908924A445CF7883 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8D1F586FDD18EFA1A14790B6682584A /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				99C137583D8E4762FD8CD4C34F820D78 /* Sources */,
+				08977348748DEAB6A10C4650C4018406 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				212B5C03C969C7FA9ED30B9C6C49B3D6 /* PBXTargetDependency */,
+				9C75306FEC3873550557BA967E5C1CC6 /* PBXTargetDependency */,
+				EF5A8A81003E6F22AFA91AEB4105CBCB /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 404FDADB4C3F1B284AFF40BB9D2C8416 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5B8581C08A6DBF57060F6785B1F87175 /* PAPasscode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EA08155C14FADCE8D9E15EF5CC6ECA8 /* Build configuration list for PBXNativeTarget "PAPasscode" */;
+			buildPhases = (
+				77F9F0EC0DEBAE911DBA7C115E66A85D /* Sources */,
+				1D119748E53789B97F73517FF0B4CAA7 /* Frameworks */,
+				2FA7DDA81019656A1C5B5E66F84C6A23 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PAPasscode;
+			productName = PAPasscode;
+			productReference = 2590CAA559D3012965BD9335FD73013E /* libPAPasscode.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		758BD33A54E94AFAEF82DF604E460408 /* IHKeyboardAvoiding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B6810707A3EB433EA4FEE181D8DE3B6 /* Build configuration list for PBXNativeTarget "IHKeyboardAvoiding" */;
+			buildPhases = (
+				EAF762E3B6C2399D57B81DA9F6569ED1 /* Sources */,
+				D6C7AF86DF507D6013F285ED198598FF /* Frameworks */,
+				3A4DD15206EF8C9E2921F43133499A9D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IHKeyboardAvoiding;
+			productName = IHKeyboardAvoiding;
+			productReference = AEBF97E61796E252F80D0501BAA16A5A /* libIHKeyboardAvoiding.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F685CCB5CF8550779D0CBE373F9A6B0E /* RDVKeyboardAvoiding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80CDA29D2AB6C75FCD62B14DA1B49988 /* Build configuration list for PBXNativeTarget "RDVKeyboardAvoiding" */;
+			buildPhases = (
+				5D921957F3ED90AD2CA249B394B6BA53 /* Sources */,
+				E59BB97CFDD517F10C09D969CD9D9632 /* Frameworks */,
+				32E005AD09116135D8014918796A0AD5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RDVKeyboardAvoiding;
+			productName = RDVKeyboardAvoiding;
+			productReference = BD4450579415B0582AFF5D5B400C5619 /* libRDVKeyboardAvoiding.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = AA6199FF2E1C5A5AF5138F6996DE2FCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				758BD33A54E94AFAEF82DF604E460408 /* IHKeyboardAvoiding */,
+				5B8581C08A6DBF57060F6785B1F87175 /* PAPasscode */,
+				477CB4715FC5CB41908924A445CF7883 /* Pods */,
+				F685CCB5CF8550779D0CBE373F9A6B0E /* RDVKeyboardAvoiding */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D921957F3ED90AD2CA249B394B6BA53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0EF33DF8F11AF77448826FC83DD8BB1 /* RDVKeyboardAvoiding-dummy.m in Sources */,
+				465F6A3975AACD47A2665EB4813FE2C3 /* RDVKeyboardAvoidingScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77F9F0EC0DEBAE911DBA7C115E66A85D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38A0EDC640F6A9568E969D6DC99ABAE2 /* PAPasscode-dummy.m in Sources */,
+				1E6EFB34634463A3333A71889CE3EC54 /* PAPasscodeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99C137583D8E4762FD8CD4C34F820D78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438283F597CEDE0EFA4BBF990C14FE69 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF762E3B6C2399D57B81DA9F6569ED1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				440AE5108FD908C9EF6D0319D40BE1F2 /* IHKeyboardAvoiding-dummy.m in Sources */,
+				A90E9C274539A4B956BF91D54F5EA763 /* IHKeyboardAvoiding.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		212B5C03C969C7FA9ED30B9C6C49B3D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IHKeyboardAvoiding;
+			target = 758BD33A54E94AFAEF82DF604E460408 /* IHKeyboardAvoiding */;
+			targetProxy = FA1A26F44A9243FC3C9AD58A9BC0306A /* PBXContainerItemProxy */;
+		};
+		9C75306FEC3873550557BA967E5C1CC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PAPasscode;
+			target = 5B8581C08A6DBF57060F6785B1F87175 /* PAPasscode */;
+			targetProxy = 2141194DADEBB3B44EB43799A03708A8 /* PBXContainerItemProxy */;
+		};
+		EF5A8A81003E6F22AFA91AEB4105CBCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RDVKeyboardAvoiding;
+			target = F685CCB5CF8550779D0CBE373F9A6B0E /* RDVKeyboardAvoiding */;
+			targetProxy = 385401BE85C1F54D3A37BAF4D71D3969 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		052A17875CB827423D627183396CEB60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		742EBFD78C2C3A08DA57B575886614A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A49C77B08E4D97FE307FDD1BC65D7CBB /* PAPasscode.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PAPasscode/PAPasscode-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		88D378950236F7E502BB3C76286B4163 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B967758CC56E1201F73118A66185007A /* RDVKeyboardAvoiding.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RDVKeyboardAvoiding/RDVKeyboardAvoiding-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		985ACAB4F892E6FC953FC10A9846A19B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A49C77B08E4D97FE307FDD1BC65D7CBB /* PAPasscode.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PAPasscode/PAPasscode-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B37F0F91F85060E28F1DAAB522DC7EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C65633971FBECC0D3FB0710685B15BAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA3CC8785A40EB32930E05FBE1133C2E /* IHKeyboardAvoiding.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/IHKeyboardAvoiding/IHKeyboardAvoiding-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D6785E1DA133231854B2335AC21CCA34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B967758CC56E1201F73118A66185007A /* RDVKeyboardAvoiding.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RDVKeyboardAvoiding/RDVKeyboardAvoiding-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D8FD568E83B50563DD21D622751D3E57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA3CC8785A40EB32930E05FBE1133C2E /* IHKeyboardAvoiding.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/IHKeyboardAvoiding/IHKeyboardAvoiding-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E5546D7DA28A0BCED6E3AA97D751E2B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		EF4A67C9FD43CCFFAA5B1ED4F010CB7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EA08155C14FADCE8D9E15EF5CC6ECA8 /* Build configuration list for PBXNativeTarget "PAPasscode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				742EBFD78C2C3A08DA57B575886614A0 /* Debug */,
+				985ACAB4F892E6FC953FC10A9846A19B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B37F0F91F85060E28F1DAAB522DC7EC1 /* Debug */,
+				052A17875CB827423D627183396CEB60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B6810707A3EB433EA4FEE181D8DE3B6 /* Build configuration list for PBXNativeTarget "IHKeyboardAvoiding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C65633971FBECC0D3FB0710685B15BAF /* Debug */,
+				D8FD568E83B50563DD21D622751D3E57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80CDA29D2AB6C75FCD62B14DA1B49988 /* Build configuration list for PBXNativeTarget "RDVKeyboardAvoiding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6785E1DA133231854B2335AC21CCA34 /* Debug */,
+				88D378950236F7E502BB3C76286B4163 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8D1F586FDD18EFA1A14790B6682584A /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4A67C9FD43CCFFAA5B1ED4F010CB7C /* Debug */,
+				E5546D7DA28A0BCED6E3AA97D751E2B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WhiteFillingsViewController">
+            <connections>
+                <outlet property="view" destination="DH2-lY-up6" id="Efh-jI-uQO"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="DH2-lY-up6">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Footer.png" translatesAutoresizingMaskIntoConstraints="NO" id="5sb-ym-DjP">
+                    <rect key="frame" x="0.0" y="464" width="320" height="105"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="105" id="FPV-pU-Ykx"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8k5-oM-VS9">
+                    <rect key="frame" x="2" y="96" width="313" height="396"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="trabs_bk.png" translatesAutoresizingMaskIntoConstraints="NO" id="Spd-eM-JdH">
+                            <rect key="frame" x="12" y="-25" width="302" height="442"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="30" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mk1-sV-gA8">
+                            <rect key="frame" x="22" y="2" width="269" height="393"/>
+                            <string key="text">    Did you know that you can replace any dark metallic fillings with a white porcelain material, giving your teeth a more natural appearance? Many patients are opting for this cosmetic option to make their smiles more attractive. We offer this treatment at Windsor Dental in Belvedere Road, Salford, and our patients are very happy with the results.
+   Metal fillings were a popular choice for fillings because they last very long, but in recent years, tooth-coloured filling materials have become more advanced and reliable, making them the ideal choice for an aesthetic tooth restoration. Having your existing metal fillings removed is a safe procedure and your new fillings can be placed in the same appointment. The new filling is made from a very hard substance and will withstand the forces in your mouth when you bite and chew over a long period of time. This will allow you to smile without a metallic glint in sight, giving your teeth a more natural appearance overall.
+   If you need a new filling due to tooth decay then white fillings are also recommended as a good solution that is both aesthetic and functional.</string>
+                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                            <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QvT-fe-smZ">
+                    <rect key="frame" x="0.0" y="-18" width="320" height="100"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="White Fillings" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Bh-3W-oas">
+                            <rect key="frame" x="109" y="59" width="102" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BHO-ic-rO4">
+                            <rect key="frame" x="8" y="55" width="46" height="30"/>
+                            <state key="normal" title="back">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="back_click:" destination="-1" eventType="touchUpInside" id="Xd2-lx-5HB"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.066666666669999999" green="0.70980392160000005" blue="0.89411764709999997" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="QvT-fe-smZ" secondAttribute="trailing" id="BUU-uo-ix0"/>
+                <constraint firstItem="9Bh-3W-oas" firstAttribute="centerX" secondItem="DH2-lY-up6" secondAttribute="centerX" id="GMr-T0-Lz8"/>
+                <constraint firstItem="5sb-ym-DjP" firstAttribute="leading" secondItem="DH2-lY-up6" secondAttribute="leading" id="V0s-RW-PKB"/>
+                <constraint firstItem="8k5-oM-VS9" firstAttribute="centerY" secondItem="DH2-lY-up6" secondAttribute="centerY" id="VLY-eF-YN5"/>
+                <constraint firstAttribute="trailing" secondItem="5sb-ym-DjP" secondAttribute="trailing" id="aaZ-ZW-Wny"/>
+                <constraint firstItem="8k5-oM-VS9" firstAttribute="centerX" secondItem="DH2-lY-up6" secondAttribute="centerX" id="oI9-ys-jTs"/>
+                <constraint firstAttribute="bottom" secondItem="5sb-ym-DjP" secondAttribute="bottom" constant="-1" id="xAb-Ab-aQH"/>
+                <constraint firstItem="QvT-fe-smZ" firstAttribute="leading" secondItem="DH2-lY-up6" secondAttribute="leading" id="zIg-j8-jRC"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="-258" y="319"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Footer.png" width="448" height="179"/>
+        <image name="trabs_bk.png" width="364" height="330"/>
+    </resources>
+</document>
